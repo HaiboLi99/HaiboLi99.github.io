@@ -1,24 +1,19 @@
 - date: 2 October, 2024
-  headline: "I gave a talk Data Science Seminar at
-Johns Hopkins University."
+  headline: "I gave a talk in the <a href='https://math.jhu.edu/~data/' target='_blank'>Data Science Seminar<a> at Johns Hopkins University."
 
-- date: 26 September, 2024
-  headline: "I am visiting Department of Mathematics at Johns Hopkin Univeristy, hosted by Prof. <a href='<a href='https://math.jhu.edu/~feilu/index.html' target='_blank'>Check it out!<a>' target='_blank'>Fei Lu<a>."
+- date: 26 September, 2024 
+  headline: "I am visiting Department of Mathematics at Johns Hopkin Univeristy, hosted by <a href='https://math.jhu.edu/~feilu/index.html' target='_blank'>Prof. Fei Lu<a>." 
 
-  - date: 18 August, 2024
+- date: 18 August, 2024
   headline: "I submitted a new paper to SIMAX. <a href='https://www.arxiv.org/pdf/2408.09412' target='_blank'>Here is the preprint<a>."
 
 - date: 14 August, 2024
   headline: "My paper on iterative regularization for linear inverse problems was publishn on SISC. <a href='https://doi.org/10.1137/23M1593802' target='_blank'>Check it out!<a>"
 
-  - date: 30 June, 2024
+- date: 30 June, 2024
   headline: "I gave a talk in the workshop <a href='https://www.matrix-inst.org.au/events/multivariate-dependence-modeling-theory-and-applications/' target='_blank'>Multivariate Dependence Modelling: Theory and Applications<a>."
 
-   - date: 16 June, 2024
-  headline: "I gave a talk in the conference <a href='https://www.scicade2024.org/' target='_blank'>SciCADE 2024<a>."
-
-
-   - date: 16 June, 2024
+- date: 16 June, 2024
   headline: "I gave a talk in the conference <a href='https://www.scicade2024.org/' target='_blank'>SciCADE 2024<a>."
 
 
