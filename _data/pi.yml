@@ -5,12 +5,12 @@
   github: https://github.com/Machealb
   researchgate: https://www.researchgate.net/profile/Haibo-Li-22
   scholar: https://scholar.google.com/citations?user=f8TtK7EAAAAJ&hl=en
-  cv: cv/cv.pdf
+  cv: cv/CV.pdf
   # Change the items in "education" you have (up to 6)
   education:
     [
       "(2021) Ph.D. Mathematics, Tsinghua University",
-      # "(1939) B.S. Physics, Massachusetts Institute of Technology",
+      "(2015) B.S. Mathematics, Shandong University",
     ]
 
   educationshort:
