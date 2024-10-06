@@ -12,9 +12,9 @@ Mathematics is the study of numbers, quantities, shapes, structures, and pattern
 <div class="container">
 <div class="row">
 <center>
-<img src="{{ site.url }}{{ site.baseurl }}/images/chalk.png" width="80%"/><br/>
-<!-- Examples of Feynman diagrams. <br/>
-Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949) -->
+<img src="{{ site.url }}{{ site.baseurl }}/images/Gyroid.jpg" width="80%"/><br/>
+Gyroid, a type of minimal surface that have cropped up in the design of microparticles for drug delivery. <br/>
+<!-- by Paul Nylander -->
 </center>
 </div>
 </div>
@@ -22,7 +22,7 @@ Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949) -->
 
 ### About me
 
-I work on applied and computational mathematics. I am currently a Research Fellow in School of Mathematics and Statistics at the University of Melbourne. I completed my Ph.D. in Tsinghua University, China, in 2021.
+I am currently a Research Fellow in School of Mathematics and Statistics at the University of Melbourne, working on applied and computational mathematics. I completed my Ph.D. in Tsinghua University, China, in 2021.
 
 My research centers around utilizing mathematical modeling and computational techniques to address challenging problems in scientific computing, matrix computation and data science. My research interests mainly include:
 * Inverse problems, regularization
