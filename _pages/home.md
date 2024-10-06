@@ -12,7 +12,7 @@ Mathematics is the study of numbers, quantities, shapes, structures, and pattern
 <div class="container">
 <div class="row">
 <center>
-<img src="{{ site.url }}{{ site.baseurl }}/images/Gyroid.jpg" width="80%"/><br/>
+<img src="{{ site.url }}{{ site.baseurl }}/images/Gyroid.jpg" width="100%"/><br/>
 Gyroid, a type of minimal surface that have cropped up in the design of microparticles for drug delivery. <br/>
 <!-- by Paul Nylander -->
 </center>
