@@ -1,7 +1,7 @@
 # Site settings
-title: Richard Feynman
-email: richard@university.edu
-description: Academic webpage of Dr. Richard Feynman
+title: Haibo Li
+email: haibolee1729@gmail.com
+description: Academic webpage of Dr. Haibo Li
 baseurl: ""
 url: ""
 
@@ -12,9 +12,9 @@ url: ""
 
 # Footer info
 affiliation: >
-  Richard Feynman<br/>
-  Professor of Physics<br/>
-  California Institute of Technology
+  Haibo Li<br/>
+  Research Fellow of Physics<br/>
+  University of Melbourne
 
 location: >
   California Institute of Technology<br/>
