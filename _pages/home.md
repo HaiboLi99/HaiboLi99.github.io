@@ -7,7 +7,10 @@ permalink: /
 
 ### Welcome!
 
-I am currently a Research Fellow in School of Mathematics and Statistics at the University of Melbourne, working on applied and computational mathematics. I completed my Ph.D. in Tsinghua University, China, in 2021.
+I am currently a Research Fellow in <a href='https://ms.unimelb.edu.au/' target='_blank'>School of Mathematics and Statistics, University of Melbourne<a>, working on applied and computational mathematics. I completed my Ph.D. in Mathematics from <a href='https://www.tsinghua.edu.cn/en/' target='_blank'>Tsinghua University<a>, China, in 2021.
+
+
+### Research
 
 My research centers around utilizing mathematical modeling and computational techniques to address challenging problems in scientific computing, matrix computation and data science. My research interests mainly include:
 * Inverse problems, regularization

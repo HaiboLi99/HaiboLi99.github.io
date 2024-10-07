@@ -9,10 +9,12 @@
   # Change the items in "education" you have (up to 6)
   education:
     [
-      "(2021) Ph.D. Mathematics, Tsinghua University",
-      "(2015) B.S. Mathematics, Shandong University",
+      "(2015-2021) Ph.D. Mathematics, Tsinghua University",
+      "(2011-2015) B.S. Mathematics, Shandong University",
     ]
 
   educationshort:
-    []
-    # ["(1942) Ph.D. Physics, Princeton", "(1939) B.S. Physics, MIT"]
+    [
+      "(2021) Ph.D. Mathematics, Tsinghua University",
+      "(2015) B.S. Mathematics, Shandong University",
+    ]

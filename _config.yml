@@ -22,8 +22,8 @@ location: >
   Melbourne VIC 3010 Australia
 
 contact: >
-  <a href="mailto:haibolee1729@gmail.com" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Haibo via email</a> <br/>
-  <a href="https://github.com/sbryngelson/academic-website-template"><i class="fa fa-github fa-1x"></i> Use this site as a template!</a>
+  <a href="mailto:haibolee1729@gmail.com" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Haibo via email</a><br/>
+
 
 # Pages shown in navbar
 nav_pages:
