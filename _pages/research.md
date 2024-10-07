@@ -34,8 +34,26 @@ iframe {
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
-<h4>Example Research</h4>
+<h4>Large-scale GSVD computation</h4>
 
-Example description
+Description
+</div>
+</div>
+
+
+<div class="jumbotron">
+<div class="col-md-12 col-sm-12">
+<h4>Iterative regularization for linear inverse problems</h4>
+
+Description
+</div>
+</div>
+
+
+<div class="jumbotron">
+<div class="col-md-12 col-sm-12">
+<h4>Scientific computing applications</h4>
+
+Description
 </div>
 </div>
