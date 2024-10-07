@@ -33,7 +33,7 @@ nav_pages:
   # - name: talks
   - name: teaching
   # - name: software
-  - name: team
+  # - name: team
   - name: blogs
 
 include:
