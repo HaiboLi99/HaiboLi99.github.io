@@ -33,3 +33,13 @@ Gyroid, a type of minimal surface that have cropped up in the design of micropar
 </div>
 <br/> --> 
 
+### Useful Resources
+
+* <a href='https://cims.nyu.edu/dynamic/' target='_blank'>Courant Institute of Mathematical Sciences, NYU<a>
+* <a href='https://www.ipam.ucla.edu/' target='_blank'>Institute for Pure and Applied Mathematics, UCLA<a>
+* <a href='https://www.mis.mpg.de/' target='_blank'>Max-Planck-Institute for Mathematics in the Sciences<a>
+* <a href='https://www.mfo.de/' target='_blank'>Mathematical Research Institute of Oberwolfach<a>
+* <a href='https://ymsc.tsinghua.edu.cn/en/index.htm' target='_blank'>Yau Mathematical Sciences Center, Tsinghua University<a>
+* <a href='https://terrytao.wordpress.com/' target='_blank'>What's new--Terence Tao's Blog<a>
+* <a href='http://bactra.org/notebooks/' target='_blank'>Cosma Shalizi's Notebooks<a>
+
