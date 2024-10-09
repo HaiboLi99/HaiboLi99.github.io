@@ -36,13 +36,16 @@ Gyroid, a type of minimal surface that have cropped up in the design of micropar
 </div>
 <br/> --> 
 
-### Useful Resources
+<br/> 
+<br/> 
 
-* <a href='https://cims.nyu.edu/dynamic/' target='_blank'>Courant Institute of Mathematical Sciences, NYU<a>
-* <a href='https://www.ipam.ucla.edu/' target='_blank'>Institute for Pure and Applied Mathematics, UCLA<a>
-* <a href='https://www.mis.mpg.de/' target='_blank'>Max-Planck-Institute for Mathematics in the Sciences<a>
-* <a href='https://www.mfo.de/' target='_blank'>Mathematical Research Institute of Oberwolfach<a>
-* <a href='https://ymsc.tsinghua.edu.cn/en/index.htm' target='_blank'>Yau Mathematical Sciences Center, Tsinghua University<a>
-* <a href='https://terrytao.wordpress.com/' target='_blank'>What's new--Terence Tao's Blog<a>
-* <a href='http://bactra.org/notebooks/' target='_blank'>Cosma Shalizi's Notebooks<a>
+#### Useful Resources
+
+* <a href='https://cims.nyu.edu/dynamic/' target='_blank'><font color=cyan size="3">Courant Institute of Mathematical Sciences, NYU</font><a>
+* <a href='https://www.ipam.ucla.edu/' target='_blank'><font color=cyan size="3">Institute for Pure and Applied Mathematics, UCLA</font><a>
+* <a href='https://www.mis.mpg.de/' target='_blank'><font color=cyan size="3">Max-Planck-Institute for Mathematics in the Sciences</font><a>
+* <a href='https://www.mfo.de/' target='_blank'><font color=cyan size="3">Mathematical Research Institute of Oberwolfach</font><a>
+* <a href='https://ymsc.tsinghua.edu.cn/en/index.htm' target='_blank'><font color=cyan size="3">Yau Mathematical Sciences Center, Tsinghua University</font><a>
+* <a href='https://terrytao.wordpress.com/' target='_blank'><font color=cyan size="3">What's new--Terence Tao's Blog</font><a>
+* <a href='http://bactra.org/notebooks/' target='_blank'><font color=cyan size="3">Cosma Shalizi's Notebooks</font><a>
 

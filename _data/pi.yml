@@ -5,16 +5,17 @@
   github: https://github.com/Machealb
   researchgate: https://www.researchgate.net/profile/Haibo-Li-22
   scholar: https://scholar.google.com/citations?user=f8TtK7EAAAAJ&hl=en
+  linkedin: https://www.linkedin.com/in/haibo-li-b586032a3/
   cv: cv/CV.pdf
   # Change the items in "education" you have (up to 6)
   education:
     [
-      "(2015-2021) Ph.D. Mathematics, Tsinghua University",
-      "(2011-2015) B.S. Mathematics, Shandong University",
+      "(2015-2021) Ph.D. Mathematics, Department of Mathematical Sciences, Tsinghua University",
+      "(2011-2015) B.S. Mathematics, Taishan College (mathematics), Shandong University",
     ]
 
   educationshort:
     [
-      "(2021) Ph.D. Mathematics, Tsinghua University",
-      "(2015) B.S. Mathematics, Shandong University",
+      "(2021) Ph.D.,  Tsinghua University",
+      "(2015) B.S.,   Shandong University",
     ]

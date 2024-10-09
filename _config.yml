@@ -1,9 +1,10 @@
 # Site settings
 title: Haibo Li
 email: haibolee1729@gmail.com
-description: Academic webpage of Dr. Haibo Li
+description: Personal webpage of Dr. Haibo Li
 baseurl: ""
 url: ""
+
 
 # Google analytics ID: Uncomment and your own, if you like
 # google_analytics: XX
@@ -17,9 +18,9 @@ affiliation: >
   University of Melbourne
 
 location: >
-  Peter Hall Building (160)<br/>
+  G82, Peter Hall Building (160)<br/>
   University of Melbourne<br/>
-  Melbourne VIC 3010 Australia
+  Melbourne VIC 3010, Australia
 
 contact: >
   <a href="mailto:haibolee1729@gmail.com" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Haibo via email</a><br/>
@@ -32,7 +33,6 @@ nav_pages:
   - name: publications
   # - name: talks
   - name: teaching
-  # - name: software
   # - name: team
   - name: blogs
 
@@ -62,8 +62,8 @@ kramdown:
 plugins: ["jekyll/scholar"]
 
 scholar:
-  last_name: Doe
-  first_name: [John]
+  last_name: Li
+  first_name: [Haibo]
 
   style: citesty
   locale: en

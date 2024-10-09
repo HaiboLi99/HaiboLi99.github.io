@@ -19,9 +19,11 @@
 		</div>
 	  </div>
 
-      <center><p>&copy {{ "now" | date: "%Y" }} {{site.title | escape }} </p></center>
+      <center><p class="footer-date">&copy {{ "now" | date: "%B %Y" }} {{site.title | escape }} </p></center>
 	</div>
   </div>
 </div>
 
 <script src="{{ "/assets/javascript/bootstrap/bootstrap.bundle.min.js" | relative_url }}"></script>
+
+
