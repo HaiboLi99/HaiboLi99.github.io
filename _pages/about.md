@@ -34,17 +34,53 @@ permalink: /about/
 </div>
 {% endfor %}
 
-{% if site.data.grants %}
+
+{% if site.data.research %}
 
 <div class="jumbotron">
-  <h3>Grants</h3>
+  <h3>Research Interests </h3>
   <ul>
-    {% for grant in site.data.grants %}
-      <li>{{ grant.name }}</li>
+    {% for research in site.data.research %}
+      <li>{{ research.name }}</li>
     {% endfor %}
   </ul>
 </div>
 {% endif %}
+
+
+{% if site.data.service.name %}
+
+<div class="jumbotron">
+  <h3>Academic Service</h3>
+  <ul>
+    <li><strong>Reviewer of journals:</strong>
+      <ul>
+        {% for service in site.data.service.name.journals %}
+          <li>{{ service.name1 }}</li>
+        {% endfor %}
+      </ul>
+    </li>
+    <li><strong>Reviewer of conferences:</strong>
+      <ul>
+        {% for service in site.data.service.name.conferences %}
+          <li>{{ service.name2 }}</li>
+        {% endfor %}
+      </ul>
+    </li>
+    <li><strong>Reviewer of grants:</strong>
+      <ul>
+        {% for service in site.data.service.name.grants %}
+          <li>{{ service.name3 }}</li>
+        {% endfor %}
+      </ul>
+    </li>
+  </ul>
+</div>
+
+{% endif %}
+
+
+
 
 {% if site.data.awards %}
 
@@ -61,7 +97,7 @@ permalink: /about/
 {% if site.data.people %}
 
 <div class="jumbotron">
-  <h3>Students and Mentoring</h3>
+  <h3>Supervision of students</h3>
   <ul>
     {% for student in site.data.people %}
       <li>{{ student.name }}, {{ student.location }} ({{ student.degree }}, {{ student.year }})</li>
@@ -70,9 +106,25 @@ permalink: /about/
 </div>
 {% endif %}
 
+
+{% if site.data.grants %}
+
+<div class="jumbotron">
+  <h3>Grants</h3>
+  <ul>
+    {% for grant in site.data.grants %}
+      <li>{{ grant.name }}</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+
+{% if site.data.funders %}
 <div class="jumbotron">
   <h4>Sponsors</h4>
   <div style='display:block; text-align:center; margin-left:auto; margin-right:auto;'>
   {% for funder in site.data.funders %}<a href="{{ funder.url }}" target="_blank"><img src='{{ site.url }}{{ site.baseurl }}/images/{{ funder.image }}' style='max-height: 80px; max-width: 200px; margin: 1%'/></a>{% endfor %}
   </div>
 </div>
+{% endif %}
