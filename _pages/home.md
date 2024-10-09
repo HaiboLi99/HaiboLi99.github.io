@@ -37,7 +37,7 @@ Gyroid, a type of minimal surface that have cropped up in the design of micropar
 <br/> --> 
 
 <br/> 
-<br/> 
+
 
 #### Useful Resources
 
