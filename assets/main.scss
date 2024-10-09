@@ -43,7 +43,6 @@ $baseurl: "{{ site.url }}{{ site.baseurl }}";
     padding-left: 30px;  /* 添加更多左侧内边距，增加与左边框的距离 */
   }
 
-
 /* 控制日期与内容之间的距离 */
 .footer-date {
     margin-top: -25px; /* 可以调整为合适的数值来增加或减少间距 */
@@ -52,31 +51,5 @@ $baseurl: "{{ site.url }}{{ site.baseurl }}";
   }
 
 
-/* Custom style inspired by embedded twitter feed and tweaks */
-
-#homeid {
-    padding-left: 10px;
-    padding-right: 0px;
-  }
-  
-  #gridid .rowl1 {
-    margin-right: 5px;
-    border-radius: 5px;
-    margin-left: -12px;
-    background-color: #292F33;
-  }
-  
-  #gridid .rowl1 ol {
-    padding-left: 10px;
-  }
-
-
-.navbar-brand {
-    padding-left: 10px;
-}
-
-.navbar-right {
-    margin-right: -10px;
-}
 
 
