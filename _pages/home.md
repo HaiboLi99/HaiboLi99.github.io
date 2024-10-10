@@ -7,7 +7,7 @@ permalink: /
 
 ### Welcome!
 
-I am currently a Research Fellow in <a href='https://ms.unimelb.edu.au/' target='_blank'>School of Mathematics and Statistics, University of Melbourne<a>, working on applied and computational mathematics. I completed my Ph.D. in Mathematics from <a href='https://www.tsinghua.edu.cn/en/' target='_blank'>Tsinghua University<a>, China, in 2021.
+I am currently a Research Fellow in <a href='https://ms.unimelb.edu.au/' target='_blank'>School of Mathematics and Statistics, University of Melbourne<a>, working on applied and computational mathematics. I completed my Ph.D. in Mathematics from <a href='https://www.tsinghua.edu.cn/en/' target='_blank'>Tsinghua University<a>, China, in 2021. See <a href='https://mathgenealogy.org/id.php?id=273430' target='_blank'>Haibo Li<a> at the <a href='https://en.wikipedia.org/wiki/Mathematics_Genealogy_Project' target='_blank'>Mathematics Genealogy Project.<a>
 
 
 ### Research
