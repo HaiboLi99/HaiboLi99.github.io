@@ -1,0 +1,18 @@
+
+
+slugs:
+  # mathenatics and sciences
+  maths:
+    - great-mathematicians-and-physicists
+
+
+  # others
+  others:
+    - molecular-dynamics
+
+  # photos
+  photos:
+    - photos-Australia
+    - photos-Europe
+    - photos-US
+
