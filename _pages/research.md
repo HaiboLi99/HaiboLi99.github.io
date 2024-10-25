@@ -34,6 +34,47 @@ iframe {
 
 ## Research
 
+
+<div class="jumbotron">
+<div class="col-md-12 col-sm-12">
+<h3>Iterative regularization for linear inverse problems</h3>
+
+Given a forward map $$G:X\rightarrow Y$$ between two separable Hilbert spaces $X$ and $Y$, the corresponding inverse problem can usually be written as 
+
+$$
+  y = G(u) + \delta
+$$
+
+where $\delta\in Y$ is an error in the deterministic case; or 
+
+$$
+	y = G(u)+\eta
+$$
+
+where $\eta$ is a $Y$-valued random variable in the stochastic case.
+Such a problem arises frequently in image processing, computed tomography, geophysics, data assimilation, etc. Most inverse problems are ill-posed, posing big challenges for analysis and computation.
+
+This project mainly focuses on the computation of ill-posed linear inverse problems after discretization. We aim to develop efficient iterative regularization methods for different types of regularizer.
+
+Here are several related papers:
+
+* [Li, H. (2024). Projected Newton method for large-scale Bayesian linear inverse problems. arXiv:2403.01920.](https://doi.org/10.48550/arXiv.2403.01920)
+
+* [Li, H., Feng, J., & Lu, F. (2024). Scalable iterative data-adaptive RKHS regularization. arXiv:2401.00656.](https://doi.org/10.48550/arXiv.2401.00656)
+
+* [Li, H. (2024). A preconditioned Krylov subspace method for linear inverse problems with general-form Tikhonov regularization. SIAM Journal on Scientific Computing, 46(4), A2607–A2633.](https://doi.org/10.1137/23M1593802)
+
+* [Li, H. (2024). Double precision is not necessary for LSQR for solving discrete linear ill-posed problems. Journal of Scientific Computing, 98(3), 55.](https://doi.org/10.1007/s10915-023-02447-4)
+
+* [Li, H. (2023). Subspace projection regularization for large-scale Bayesian linear inverse problems. arXiv:2310.18618.](https://doi.org/10.48550/arXiv.2310.18618)
+
+* [Li, H. (2023). Generalizing the SVD of a matrix under non-standard inner product and its applications to linear ill-posed problems. arXiv:2312.10403.](https://doi.org/10.48550/arXiv.2312.10403)
+
+</div>
+</div>
+
+
+
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
 <h3>GSVD computation and related matrix pair problems</h3>
@@ -95,29 +136,24 @@ $$
 
 where $q_1+q_2+q_3=r$, and  $P_{A}\in \mathbb{R}^{m\times m}$, $P_{L}\in \mathbb{R}^{p\times p}$ are orthogonal, $X\in\mathbb{R}^{n\times n}$ is invertible, and $\Sigma_{A}^{\top}\Sigma_A+\Sigma_{L}^{\top}\Sigma_L=I_{r}$. The values of $$\{q_1,q_2,q_3\}$$ are determined internally by $$\{A,L\}$$.
 
-It is very useful for matrix computation problems such as
+It is very useful for matrix computation problems related to matrix pairs, such as
+
 * Generalized least squares problem:
 
 $$\min_{x\in\mathbb{R}^{n}}\|Lx\|_2 \ \ \ \mathrm{s.t.} \ \ \ 
-	\|M(Ax-b)\|_{2}=\min $$
+	\|Ax-b\|_{2}=\min $$
 
 * Least squares problem with linear constraints:
 
 $$\min_{x\in\mathbb{R}^{n}}\|Ax-b\|_2 \quad \mathrm{s.t.} \quad 
-	Cx = d $$
+	Lx = d $$
 
 * General-form Tikhonov regularization:
 
-$$\min_{x\in\mathbb{R}^{n}}\{\|Ax-b\|_{2}^{2}+\lambda\|Lx\|_{2}^{2}\}
-$$
-
-or
-
-$$
+$$\min_{x\in\mathbb{R}^{n}}\{\|Ax-b\|_{2}^{2}+\lambda\|Lx\|_{2}^{2}\} \quad \mathrm{or} \quad
 \min_{x\in\mathbb{R}^{n}}\|Ax-b\|_{2}^{2} \quad \mathrm{s.t.} \quad 
-\|Lx\|_{2}\leq \delta
+\|Lx\|_{2}\leq \delta .
 $$
-
 
 This project focuses on analyzing GSVD from new perpectives, which leads to new numerical methods for its computation, and also new understanding and computation of the above matrix pair problems.
 
@@ -137,28 +173,6 @@ Here are several related papers:
 </div>
 
 
-<div class="jumbotron">
-<div class="col-md-12 col-sm-12">
-<h3>Iterative regularization for linear inverse problems</h3>
-
-Description
-
-Here are several related papers:
-
-* [Li, H. (2024). Projected Newton method for large-scale Bayesian linear inverse problems. arXiv:2403.01920.](https://doi.org/10.48550/arXiv.2403.01920)
-
-* [Li, H., Feng, J., & Lu, F. (2024). Scalable iterative data-adaptive RKHS regularization. arXiv:2401.00656.](https://doi.org/10.48550/arXiv.2401.00656)
-
-* [Li, H. (2024). A preconditioned Krylov subspace method for linear inverse problems with general-form Tikhonov regularization. SIAM Journal on Scientific Computing, 46(4), A2607–A2633.](https://doi.org/10.1137/23M1593802)
-
-* [Li, H. (2024). Double precision is not necessary for LSQR for solving discrete linear ill-posed problems. Journal of Scientific Computing, 98(3), 55.](https://doi.org/10.1007/s10915-023-02447-4)
-
-* [Li, H. (2023). Subspace projection regularization for large-scale Bayesian linear inverse problems. arXiv:2310.18618.](https://doi.org/10.48550/arXiv.2310.18618)
-
-* [Li, H. (2023). Generalizing the SVD of a matrix under non-standard inner product and its applications to linear ill-posed problems. arXiv:2312.10403.](https://doi.org/10.48550/arXiv.2312.10403)
-
-</div>
-</div>
 
 
 <div class="jumbotron">
