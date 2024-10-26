@@ -17,7 +17,8 @@ My research centers around utilizing mathematical modeling and computational tec
 * Numerical linear algebra, matrix analysis and computation
 * Scientific machine learning
 
-I am always looking for collaborate with researchers from mathematics, statistics, artificial intelligence and etc. For discussion of potential collaborations, please reach out to me by <a href="mailto:haibolee1729@gmail.com" target="_blank"> haibolee1729@gmail.com.</a> <br/>
+I am always looking for collaborate with researchers from mathematics, statistics, artificial intelligence and etc. For discussion of potential collaborations, please reach out to me by <a href="mailto:haibolee1729@gmail.com" target="_blank" style="text-decoration: underline;">haibolee1729@gmail.com.</a>
+<br/>
 
 
 
