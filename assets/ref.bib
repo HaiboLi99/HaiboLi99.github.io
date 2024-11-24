@@ -71,7 +71,10 @@
 @unpublished{li2023alkpu,
   Title={ALKPU: An Active Learning Method for the DeePMD Model with Kalman Filtering},
   Author={Haibo Li and Xingxing Wu and Liping Liu and Long Wang and Lin-Wang Wang and Guangming Tan and Weile Jia},
-  year={2023},
+  Note={arXiv:2411.13850},
+  doi = {2411.13850},
+  year={2024},
+  file = {2024-ALKPU.pdf},
   abstract = {Neural network force field models such as DeePMD has enabled highly efficient large-scale molecular dynamics simulations with ab initio accuracy. However, building such models covering complete configurations of the simulated system heavily depends on training data obtained by costly electronic structure calculations, thus concurrently selecting and labelling the most representative configurations during model training is crucial for enhancing its extrapolation capability while improving training efficiency. To address this challenge, for the DeePMD model trained by an efficient Kalman filtering based optimizer, we propose the Kalman Prediction Uncertainty (KPU) to quantify uncertainty of the model's prediction. With KPU we design the Active Learning by KPU (ALKPU) method that can efficiently select representative configurations that should be labelled during model training. Using the Fisher information matrix and Shannon entropy, we prove that ALKPU locally leads to fastest reduction of model's uncertainty, which reveals its rationality as a general active learning method. We test the ALKPU method with various physical system simulations and demonstrate that it can efficiently coverage the system's configuration space. Our work shows advantages of ALKPU as a new active learning method in terms of training efficiency and computational resource overheads.}
 }
 
@@ -170,10 +173,6 @@ abstract = { Abstract. The joint bidiagonalization (JBD) method has been used to
   file={2021-JBDPRO.pdf},
   abstract = {The joint bidiagonalization (JBD) process is a useful algorithm for the computation of the generalized singular value decomposition (GSVD) of a matrix pair. However, it always suffers from rounding errors, which causes the Lanczos vectors to lose their mutual orthogonality. In order to maintain some level of orthogonality, we present a semiorthogonalization strategy. Our rounding error analysis shows that the JBD process with the semiorthogonalization strategy can ensure that the convergence of the computed quantities is not affected by rounding errors and the final accuracy is high enough. Based on the semiorthogonalization strategy, we develop the joint bidiagonalization process with partial reorthogonalization (JBDPRO). In the JBDPRO algorithm, reorthogonalizations occur only when necessary, which saves a big amount of reorthogonalization work, compared with the full reorthogonalization strategy. Numerical experiments illustrate our theory and algorithm.}
 }
-
-
-
-
 
 
 % Refereed conference proceedings 
