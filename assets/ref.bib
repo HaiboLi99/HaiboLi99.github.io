@@ -1,13 +1,4 @@
 % Preprints
-@unpublished{li2024new,
-  Title={A new interpretation of the weighted pseudoinverse and its applications},
-  Author={Li, Haibo},
-  Note={arXiv:2408.09412},
-  doi = {2408.09412},
-  year={2024},
-  file = {2024-new.pdf},
-  abstract = {Consider the generalized linear least squares (GLS) problem min∥Lx∥2 s.t. ∥M(Ax-b)∥2=min. The weighted pseudoinverse A†ML is the matrix that maps b to the minimum 2-norm solution of this GLS problem. By introducing a linear operator induced by {A,M,L} between two finite-dimensional Hilbert spaces, we show that the minimum 2-norm solution of the GLS problem is equivalent to the minimum norm solution of a linear least squares problem involving this linear operator, and A†ML can be expressed as the composition of the Moore-Penrose pseudoinverse of this linear operator and an orthogonal projector. With this new interpretation, we establish the generalized Moore-Penrose equations that completely characterize the weighted pseudoinverse, give a closed-form expression of the weighted pseudoinverse using the generalized singular value decomposition (GSVD), and propose a generalized LSQR (gLSQR) algorithm for iteratively solving the GLS problem. We construct several numerical examples to test the proposed iterative algorithm for solving GLS problems. Our results highlight the close connections between GLS, weighted pseudoinverse, GSVD and gLSQR, providing new tools for both analysis and computations.}
-}
 
 
 @unpublished{liu2024tddft,
@@ -17,15 +8,6 @@
   abstract = {Ultra-fast electronic phenomena originating from finite temperature, such as nonlinear optical excitation, can be simulated with high fidelity via real-time time dependent density functional theory (rt-TDDFT) calculations with hybrid functional. However, previous rt-TDDFT simulations of real materials using the optimal gauge-known as the parallel transport gauge-have been limited to low-temperature systems with band gaps. In this paper, we introduce the parallel transport-implicit midpoint (PT-IM) method, which significantly accelerates finitetemperature rt-TDDFT calculations of real materials with hybrid function. We first implement PT-IM with hybrid functional in our plane wave code PWDFT, and optimized it on both GPU and ARM platforms to build a solid baseline code. Next, we propose a diagonalization method to reduce computation and communication complexity, and then, we employ adaptively compressed exchange (ACE) method to reduce the frequency of the most expensive Fock exchange operator. Finally, we adopt the ring based method and the shared memory mechanism to overlap computation and communication and alleviate memory consumption respectively. Numerical results show that our optimized code can reach 3072 atoms for rt-TDDFT simulation with hybrid functional at finite temperature on 192 computing nodes, the time-to-solution for one time step is 429.3s, which is 41.4 times faster compared to the baseline.}
 }
 
-@unpublished{li2024characterizing,
-  Title={Characterizing GSVD by singular value expansion of linear operators and its computation},
-  Author={Li, Haibo},
-  Note={arXiv:2404.00655},
-  doi = {2404.00655},
-  year={2024},
-  file = {2024-character.pdf},
-  abstract = {The generalized singular value decomposition (GSVD) of a matrix pair {A,L} with A∈Rmxn and L∈Rpxn generalizes the singular value decomposition (SVD) of a single matrix. In this paper, we provide a new understanding of GSVD from the viewpoint of SVD, based on which we propose a new iterative method for computing nontrivial GSVD components of a large-scale matrix pair. By introducing two linear operators A and L induced by {A,L} between two finite-dimensional Hilbert spaces and applying the theory of singular value expansion (SVE) for linear compact operators, we show that the GSVD of {A,L} is nothing but the SVEs of A and L. This result characterizes completely the structure of GSVD for any matrix pair with the same number of columns. As a direct application of this result, we generalize the standard Golub-Kahan bidiagonalization (GKB) that is a basic routine for large-scale SVD computation such that the resulting generalized GKB (gGKB) process can be used to approximate nontrivial extreme GSVD components of {A,L}, which is named the gGKB\_GSVD algorithm. We use the GSVD of {A,L} to study several basic properties of gGKB and also provide preliminary results about convergence and accuracy of gGKB\_GSVD for GSVD computation. Numerical experiments are presented to demonstrate the effectiveness of this method.}
-}
 
 @unpublished{li2024projected,
   Title={Projected Newton method for large-scale Bayesian linear inverse problems},
@@ -78,19 +60,39 @@
   abstract = {Neural network force field models such as DeePMD has enabled highly efficient large-scale molecular dynamics simulations with ab initio accuracy. However, building such models covering complete configurations of the simulated system heavily depends on training data obtained by costly electronic structure calculations, thus concurrently selecting and labelling the most representative configurations during model training is crucial for enhancing its extrapolation capability while improving training efficiency. To address this challenge, for the DeePMD model trained by an efficient Kalman filtering based optimizer, we propose the Kalman Prediction Uncertainty (KPU) to quantify uncertainty of the model's prediction. With KPU we design the Active Learning by KPU (ALKPU) method that can efficiently select representative configurations that should be labelled during model training. Using the Fisher information matrix and Shannon entropy, we prove that ALKPU locally leads to fastest reduction of model's uncertainty, which reveals its rationality as a general active learning method. We test the ALKPU method with various physical system simulations and demonstrate that it can efficiently coverage the system's configuration space. Our work shows advantages of ALKPU as a new active learning method in terms of training efficiency and computational resource overheads.}
 }
 
-@unpublished{li2022backward,
-  Title={Backward error analysis of the Lanczos bidiagonalization with reorthogonalization},
-  Author={Li, Haibo and Tan, Guangming and Zhao, Tong},
-  Note={arXiv:2210.10297},
+
+
+% Refereed journal articles
+@article{li2024new,
+  title={A new interpretation of the weighted pseudoinverse and its applications},
+  author={Li, Haibo},
+  journal = {SIAM Journal on Matrix Analysis and Applications (accepted)},
+  year = {2024},
+  doi = {2408.09412},
+  file = {2024-new.pdf},
+  abstract = {Consider the generalized linear least squares (GLS) problem min∥Lx∥2 s.t. ∥M(Ax-b)∥2=min. The weighted pseudoinverse A†ML is the matrix that maps b to the minimum 2-norm solution of this GLS problem. By introducing a linear operator induced by {A,M,L} between two finite-dimensional Hilbert spaces, we show that the minimum 2-norm solution of the GLS problem is equivalent to the minimum norm solution of a linear least squares problem involving this linear operator, and A†ML can be expressed as the composition of the Moore-Penrose pseudoinverse of this linear operator and an orthogonal projector. With this new interpretation, we establish the generalized Moore-Penrose equations that completely characterize the weighted pseudoinverse, give a closed-form expression of the weighted pseudoinverse using the generalized singular value decomposition (GSVD), and propose a generalized LSQR (gLSQR) algorithm for iteratively solving the GLS problem. We construct several numerical examples to test the proposed iterative algorithm for solving GLS problems. Our results highlight the close connections between GLS, weighted pseudoinverse, GSVD and gLSQR, providing new tools for both analysis and computations.}
+}
+
+@article{li2024characterizing,
+  title={Characterizing GSVD by singular value expansion of linear operators and its computation},
+  author={Li, Haibo},
+  journal = {SIAM Journal on Matrix Analysis and Applications (accepted)},
+  doi = {2404.00655},
+  year={2024},
+  file = {2024-character.pdf},
+  abstract = {The generalized singular value decomposition (GSVD) of a matrix pair {A,L} with A∈Rmxn and L∈Rpxn generalizes the singular value decomposition (SVD) of a single matrix. In this paper, we provide a new understanding of GSVD from the viewpoint of SVD, based on which we propose a new iterative method for computing nontrivial GSVD components of a large-scale matrix pair. By introducing two linear operators A and L induced by {A,L} between two finite-dimensional Hilbert spaces and applying the theory of singular value expansion (SVE) for linear compact operators, we show that the GSVD of {A,L} is nothing but the SVEs of A and L. This result characterizes completely the structure of GSVD for any matrix pair with the same number of columns. As a direct application of this result, we generalize the standard Golub-Kahan bidiagonalization (GKB) that is a basic routine for large-scale SVD computation such that the resulting generalized GKB (gGKB) process can be used to approximate nontrivial extreme GSVD components of {A,L}, which is named the gGKB\_GSVD algorithm. We use the GSVD of {A,L} to study several basic properties of gGKB and also provide preliminary results about convergence and accuracy of gGKB\_GSVD for GSVD computation. Numerical experiments are presented to demonstrate the effectiveness of this method.}
+}
+
+@article{li2022backward,
+  title={Backward error analysis of the Lanczos bidiagonalization with reorthogonalization},
+  author={Li, Haibo and Tan, Guangming and Zhao, Tong},
+  journal = {Journal of Computational and Applied Mathematics (accepted)},
   doi = {2210.10297},
-  year={2022},
+  year={2024},
   file = {2022-backward.pdf},
   abstract = {The k-step Lanczos bidiagonalization reduces a matrix A∈Rmxn into a bidiagonal form Bk∈R(k+1)xk while generates two orthonormal matrices Uk+1∈Rmx(k+1) and Vk+1∈Rnx(k+1). However, any practical implementation of the algorithm suffers from loss of orthogonality of Uk+1 and Vk+1 due to the presence of rounding errors, and several reorthogonalization strategies are proposed to maintain some level of orthogonality. In this paper, by writing various reorthogonalization strategies in a general form we make a backward error analysis of the Lanczos bidiagonalization with reorthogonalization (LBRO). Our results show that the computed Bk by the k-step LBRO of A with starting vector b is the exact one generated by the k-step Lanczos bidiagonalization of A+E with starting vector b+δb (denoted by LB(A+E,b+δb)), where the 2-norm of perturbation vector/matrix δb and E depend on the roundoff unit and orthogonality levels of Uk+1 and Vk+1. The results also show that the 2-norm of Uk+1-U¯k+1 and Vk+1-V¯k+1 are controlled by the orthogonality levels of Uk+1 and Vk+1, respectively, where U¯k+1 and V¯k+1 are the two orthonormal matrices generated by the k-step LB(A+E,b+δb) in exact arithmetic. Thus the k-step LBRO is mixed forward-backward stable as long as the orthogonality of Uk+1 and Vk+1 are good enough. We use this result to investigate the backward stability of LBRO based SVD computation algorithm and LSQR algorithm. Numerical experiments are made to confirm our results.}
 }
 
-
-
-% Refereed journal articles
 @article{li2024preconditioned,
   title={A preconditioned Krylov subspace method for linear inverse problems with general-form Tikhonov regularization},
   author={Li, Haibo},

@@ -12,7 +12,7 @@ I am currently a Research Fellow in <a href='https://ms.unimelb.edu.au/' target=
 
 ### Research
 
-My research centers around utilizing mathematical modeling and computational techniques to address challenging problems in scientific computing, matrix computation and data science. My research interests mainly include:
+My research centers around utilizing mathematical modeling and computational techniques to address challenging problems in scientific computing and data science. My research interests mainly include:
 * Inverse problems, regularization
 * Numerical linear algebra, matrix analysis and computation
 * Scientific machine learning
