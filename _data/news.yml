@@ -1,3 +1,8 @@
+- date: 5 December, 2024
+  headline: "My paper on 'weighted pseudoinverse and its computation' has been accepted by <a href='https://www.siam.org/publications/siam-journals/siam-journal-on-matrix-analysis-and-applications/' target='_blank'>SIMAX.<a> Read the <a href='https://www.arxiv.org/pdf/2408.09412' target='_blank'>preprint</a> first!"
+
+- date: 1 December, 2024
+  headline: "My paper on 'Lanczos bidiagonalization with reorthogonalization' was published on JCAM. <a href='https://doi.org/10.1016/j.cam.2024.116414' target='_blank'>Check it out!<a>"
 
 - date: 17 November, 2024
   headline: "I gave a talk about `data-adaptive RKHS regularization' in <a href='https://easipia.github.io/website/index8thyss.html?The_Eighth_Young_Scholar_Symposium' target='_blank'> the 8th Young Scholar Symposium of the East Asia Section of Inverse Problems International Association.<a> "
@@ -9,7 +14,7 @@
   headline: "I gave a talk about `iterative data-adaptive RKHS regularization' in Department of Mathematics at Lehigh Univeristy, invited by <a href='https://www.lehigh.edu/~yuy214/' target='_blank'>Prof. Yue Yu.<a>"
 
 - date: 10 October, 2024
-  headline: "My paper on GSVD analysis and computation has been accepted by <a href='https://www.siam.org/publications/siam-journals/siam-journal-on-matrix-analysis-and-applications/' target='_blank'>SIMAX.<a> Read the <a href='https://arxiv.org/pdf/2404.00655' target='_blank'>preprint</a> first!"
+  headline: "My paper on 'GSVD analysis and computation' has been accepted by <a href='https://www.siam.org/publications/siam-journals/siam-journal-on-matrix-analysis-and-applications/' target='_blank'>SIMAX.<a> Read the <a href='https://arxiv.org/pdf/2404.00655' target='_blank'>preprint</a> first!"
 
 - date: 2 October, 2024
   headline: "I gave a talk in the <a href='https://math.jhu.edu/~data/' target='_blank'>Data Science Seminar<a> at Johns Hopkins University."
@@ -17,11 +22,8 @@
 - date: 26 August, 2024 
   headline: "I started to work as a visiting scholar in Department of Mathematics at Johns Hopkins Univeristy, hosted by <a href='https://math.jhu.edu/~feilu/index.html' target='_blank'>Prof. Fei Lu.<a>" 
 
-# - date: 18 August, 2024
-#   headline: "I completed a new paper. <a href='https://www.arxiv.org/pdf/2408.09412' target='_blank'>Here is the preprint.<a>"
-
 - date: 14 August, 2024
-  headline: "My paper on iterative regularization for linear inverse problems was published on SISC. <a href='https://doi.org/10.1137/23M1593802' target='_blank'>Check it out!<a>"
+  headline: "My paper on 'iterative regularization for linear inverse problems' was published on SISC. <a href='https://doi.org/10.1137/23M1593802' target='_blank'>Check it out!<a>"
 
 - date: 30 July, 2024
   headline: "I gave a talk in the workshop <a href='https://www.matrix-inst.org.au/events/multivariate-dependence-modeling-theory-and-applications/' target='_blank'>Multivariate Dependence Modelling: Theory and Applications.<a>"
