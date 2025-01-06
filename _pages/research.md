@@ -159,6 +159,10 @@ This project focuses on analyzing GSVD from new perpectives, which leads to new 
 
 Here are several related papers:
 
+* [Li, H. (2025). Krylov iterative methods for linear least squares problems with linear equality constraints. arXiv:2501.01655.](https://doi.org/10.48550/arXiv.2501.01655)
+
+* [Li, H., Tan, G., & Zhao, T. (2025). Backward error analysis of the Lanczos bidiagonalization with reorthogonalization. Journal of Computational and Applied Mathematics, 460, 116414.](https://doi.org/10.1016/j.cam.2024.116414)
+
 * [Li, H. (2024). A new interpretation of the weighted pseudoinverse and its applications. arXiv:2408.09412.](https://doi.org/10.48550/arXiv.2408.09412)
 
 * [Li, H. (2024). Characterizing GSVD by singular value expansion of linear operators and its computation. arXiv:2404.00655.](https://doi.org/10.48550/arXiv.2404.00655)
@@ -168,8 +172,6 @@ Here are several related papers:
 * [Jia, Z., & Li, H. (2023). The Joint Bidiagonalization Method for Large GSVD Computations in Finite Precision. SIAM Journal on Matrix Analysis and Applications, 44(1), 382–407.](https://doi.org/10.1137/22M1483608)
 
 * [Jia, Z., & Li, H. (2021). The joint bidiagonalization process with partial reorthogonalization. Numerical Algorithms, 88, 965–992.](https://doi.org/10.1007/s11075-020-01064-8)
-
-* [Li, H., Tan, G., & Zhao, T. (2022). Backward error analysis of the Lanczos bidiagonalization with reorthogonalization. arXiv:2210.10297.](https://doi.org/10.48550/arXiv.2210.10297)
 
 </div>
 </div>
