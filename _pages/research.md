@@ -167,11 +167,11 @@ Here are several related papers:
 
 * [Li, H. (2024). Characterizing GSVD by singular value expansion of linear operators and its computation. arXiv:2404.00655.](https://doi.org/10.48550/arXiv.2404.00655)
 
-* [Li, H. (2024). The Joint Bidiagonalization of a Matrix Pair with Inaccurate Inner Iterations. SIAM Journal on Matrix Analysis and Applications, 45(1), 232–259.](https://doi.org/10.1137/22M1541083)
+* [Li, H. (2024). The Joint Bidiagonalization of a Matrix Pair with Inaccurate Inner Iterations. SIAM Journal on Matrix Analysis and Applications, 45(1), 232--259.](https://doi.org/10.1137/22M1541083)
 
-* [Jia, Z., & Li, H. (2023). The Joint Bidiagonalization Method for Large GSVD Computations in Finite Precision. SIAM Journal on Matrix Analysis and Applications, 44(1), 382–407.](https://doi.org/10.1137/22M1483608)
+* [Jia, Z., & Li, H. (2023). The Joint Bidiagonalization Method for Large GSVD Computations in Finite Precision. SIAM Journal on Matrix Analysis and Applications, 44(1), 382--407.](https://doi.org/10.1137/22M1483608)
 
-* [Jia, Z., & Li, H. (2021). The joint bidiagonalization process with partial reorthogonalization. Numerical Algorithms, 88, 965–992.](https://doi.org/10.1007/s11075-020-01064-8)
+* [Jia, Z., & Li, H. (2021). The joint bidiagonalization process with partial reorthogonalization. Numerical Algorithms, 88, 965--992.](https://doi.org/10.1007/s11075-020-01064-8)
 
 </div>
 </div>
