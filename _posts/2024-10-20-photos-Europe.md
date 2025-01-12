@@ -14,7 +14,7 @@ date: 2024-10-19
 ### Kölner Dom, Köln
 <img src="/images/church.jpg" alt="church" title="church" style="max-width: 50%; height: auto;">
 
-*Kölner Dom (English: Cologne Cathedral), Germany. The tallest twin-spired church in the world, belonging to the Catholic Church*
+*Kölner Dom (English: Cologne Cathedral), Germany. The tallest twin-spired church in the world*
 
 
 ### Hohenzollernbrücke, Köln

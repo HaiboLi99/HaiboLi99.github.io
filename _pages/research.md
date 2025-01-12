@@ -37,7 +37,7 @@ iframe {
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
-<h3>Iterative regularization for linear inverse problems</h3>
+<h3>Iterative regularization for inverse problems</h3>
 
 Given a forward map $$G:X\rightarrow Y$$ between two separable Hilbert spaces $X$ and $Y$, the corresponding inverse problem can usually be written as 
 
@@ -54,7 +54,7 @@ $$
 where $\eta$ is a $Y$-valued random variable in the stochastic case.
 Such a problem arises frequently in image processing, computed tomography, geophysics, data assimilation, etc. Most inverse problems are ill-posed, posing big challenges for analysis and computation.
 
-This project mainly focuses on the computation of ill-posed linear inverse problems after discretization. We aim to develop efficient iterative regularization methods for different types of regularizer.
+This project mainly focuses on the regularization and its iterative computation for ill-posed inverse problems. We aim to develop efficient iterative regularization methods for different types of regularizers.
 
 Here are several related papers:
 
@@ -77,8 +77,8 @@ Here are several related papers:
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
-<h3>GSVD computation and related matrix pair problems</h3>
-The Generalized Singular Value Decomposition (GSVD) of a matrix pair is a generalization of the SVD. It is a powerful tool for analysis and computation of matrix pair problems.
+<h3>GSVD computation and related matrix-pair problems</h3>
+The Generalized Singular Value Decomposition (GSVD) of a matrix-pair is a generalization of the SVD. It is a powerful tool for analysis and computation of many matrix-pair problems.
 
 Given two matrices $A\in\mathbb{R}^{m\times n}$ and $L\in\mathbb{R}^{p\times n}$ with $\mathrm{rank}((A^{\top},L^{\top})^{\top})=r$. The GSVD of $$\{A,L\}$$ is
 \begin{equation}
@@ -136,7 +136,7 @@ $$
 
 where $q_1+q_2+q_3=r$, and  $P_{A}\in \mathbb{R}^{m\times m}$, $P_{L}\in \mathbb{R}^{p\times p}$ are orthogonal, $X\in\mathbb{R}^{n\times n}$ is invertible, and $\Sigma_{A}^{\top}\Sigma_A+\Sigma_{L}^{\top}\Sigma_L=I_{r}$. The values of $$\{q_1,q_2,q_3\}$$ are determined internally by $$\{A,L\}$$.
 
-It is very useful for matrix computation problems related to matrix pairs, such as
+It is very useful for matrix computation problems related to matrix-pairs, such as
 
 * Generalized least squares problem:
 
@@ -155,7 +155,7 @@ $$\min_{x\in\mathbb{R}^{n}}\{\|Ax-b\|_{2}^{2}+\lambda\|Lx\|_{2}^{2}\} \quad \mat
 \|Lx\|_{2}\leq \delta .
 $$
 
-This project focuses on analyzing GSVD from new perpectives, which leads to new numerical methods for its computation, and also new understanding and computation of the above matrix pair problems.
+This project focuses on analyzing GSVD from new perpectives, which leads to new numerical methods for its computation, and also new understanding and computation of the above matrix-pair problems.
 
 Here are several related papers:
 
