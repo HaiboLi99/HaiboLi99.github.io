@@ -10,18 +10,6 @@
   abstract = {We consider the linear least squares problem with linear equality constraints (LSE problem) formulated as min ||Ax-b||_2 s.t Cx=d. Although there are some classical methods available to solve this problem, most of them rely on matrix factorizations or require the null space of C, which limits their applicability to large-scale problems. To address this challenge, we present a novel analysis of the LSE problem from the perspective of operator-type least squares (LS) problems, where the linear operators are induced by {A, C}. We show that the solution of the LSE problem can be decomposed into two components, each corresponding to the solution of an operator-form LS problem. Building on this decomposed-form solution, we propose two Krylov subspace based iterative methods to approximate each component, thereby providing an approximate solution of the LSE problem. Several numerical examples are constructed to test the proposed iterative algorithm for solving the LSE problems, which demonstrate the effectiveness of the algorithms.}
 }
 
-
-@unpublished{liu2024tddft,
-  Title={Large Scale Finite-Temperature Real-time Time Dependent Density Functional Theory Calculation with Hybrid Functional on ARM and GPU Systems},
-  Author={Rongrong Liu and Zhuoqiang Guo and Qiuchen Sha and Tong Zhao and Haibo Li and Wei Hu and Lĳun Liu and Guangming Tan and Weile Jia},
-  Note={arXiv:2501.03061},
-  doi = {2501.03061},
-  year={2025},
-  file = {2025-TDDFT.pdf},
-  abstract = {Ultra-fast electronic phenomena originating from finite temperature, such as nonlinear optical excitation, can be simulated with high fidelity via real-time time dependent density functional theory (rt-TDDFT) calculations with hybrid functional. However, previous rt-TDDFT simulations of real materials using the optimal gauge known as the parallel transport gauge--have been limited to low-temperature systems with band gaps. In this paper, we introduce the parallel transport-implicit midpoint (PT-IM) method, which significantly accelerates finite temperature rt-TDDFT calculations of real materials with hybrid function. We first implement PT-IM with hybrid functional in our plane wave code PWDFT, and optimized it on both GPU and ARM platforms to build a solid baseline code. Next, we propose a diagonalization method to reduce computation and communication complexity, and then, we employ adaptively compressed exchange (ACE) method to reduce the frequency of the most expensive Fock exchange operator. Finally, we adopt the ring based method and the shared memory mechanism to overlap computation and communication and alleviate memory consumption respectively. Numerical results show that our optimized code can reach 3072 atoms for rt-TDDFT simulation with hybrid functional at finite temperature on 192 computing nodes, the time-to-solution for one time step is 429.3s, which is 41.4 times faster compared to the baseline}
-}
-
-
 @unpublished{li2024projected,
   Title={Projected Newton method for large-scale Bayesian linear inverse problems},
   Author={Li, Haibo},
@@ -202,6 +190,16 @@ abstract = { Abstract. The joint bidiagonalization (JBD) method has been used to
     Address = {Pasadena, CA},
     file = {example_proceeding.pdf},
     abstract = {Example abstract.},
+}
+
+@inproceedings{liu2024tddft,
+  Title={Large Scale Finite-Temperature Real-time Time Dependent Density Functional Theory Calculation with Hybrid Functional on ARM and GPU Systems},
+  Author={Rongrong Liu and Zhuoqiang Guo and Qiuchen Sha and Tong Zhao and Haibo Li and Wei Hu and Lĳun Liu and Guangming Tan and Weile Jia},
+  Booktitle = {39th IEEE International Parallel & Distributed Processing Symposium (IPDPS 2025)},
+  year={2025},
+  Address = {Milano, Italy},
+  file = {2025-TDDFT.pdf},
+  abstract = {Ultra-fast electronic phenomena originating from finite temperature, such as nonlinear optical excitation, can be simulated with high fidelity via real-time time dependent density functional theory (rt-TDDFT) calculations with hybrid functional. However, previous rt-TDDFT simulations of real materials using the optimal gauge known as the parallel transport gauge--have been limited to low-temperature systems with band gaps. In this paper, we introduce the parallel transport-implicit midpoint (PT-IM) method, which significantly accelerates finite temperature rt-TDDFT calculations of real materials with hybrid function. We first implement PT-IM with hybrid functional in our plane wave code PWDFT, and optimized it on both GPU and ARM platforms to build a solid baseline code. Next, we propose a diagonalization method to reduce computation and communication complexity, and then, we employ adaptively compressed exchange (ACE) method to reduce the frequency of the most expensive Fock exchange operator. Finally, we adopt the ring based method and the shared memory mechanism to overlap computation and communication and alleviate memory consumption respectively. Numerical results show that our optimized code can reach 3072 atoms for rt-TDDFT simulation with hybrid functional at finite temperature on 192 computing nodes, the time-to-solution for one time step is 429.3s, which is 41.4 times faster compared to the baseline}
 }
 
 
