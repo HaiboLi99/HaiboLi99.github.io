@@ -55,7 +55,6 @@ where $\eta$ is a $Y$-valued random variable in the stochastic case.
 Such a problem arises frequently in image processing, computed tomography, geophysics, data assimilation, etc. Most inverse problems are ill-posed, posing big challenges for analysis and computation.
 
 This project mainly focuses on the regularization and its iterative computation for ill-posed inverse problems. We aim to develop efficient iterative regularization methods for different types of regularizers.
-
 Here are several related papers:
 
 * [Li, H. (2024). Projected Newton method for large-scale Bayesian linear inverse problems. arXiv:2403.01920.](https://doi.org/10.48550/arXiv.2403.01920)
@@ -78,12 +77,13 @@ Here are several related papers:
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
 <h3>GSVD computation and related matrix-pair problems</h3>
-The Generalized Singular Value Decomposition (GSVD) of a matrix-pair is a generalization of the SVD. It is a powerful tool for analysis and computation of many matrix-pair problems.
-
+The Generalized Singular Value Decomposition (GSVD) of a matrix-pair is a generalization of the SVD. It is a powerful tool for analysis and computation of many matrix-pair problems. 
 Given two matrices $A\in\mathbb{R}^{m\times n}$ and $L\in\mathbb{R}^{p\times n}$ with $\mathrm{rank}((A^{\top},L^{\top})^{\top})=r$. The GSVD of $$\{A,L\}$$ is
-\begin{equation}
+
+$$
 	  A = P_{A}C_AX^{-1}, \ \ \ \ L = P_{L}S_LX^{-1} ,
-\end{equation}
+$$
+
 where 
 
 $$
@@ -136,27 +136,26 @@ $$
 
 where $q_1+q_2+q_3=r$, and  $P_{A}\in \mathbb{R}^{m\times m}$, $P_{L}\in \mathbb{R}^{p\times p}$ are orthogonal, $X\in\mathbb{R}^{n\times n}$ is invertible, and $\Sigma_{A}^{\top}\Sigma_A+\Sigma_{L}^{\top}\Sigma_L=I_{r}$. The values of $$\{q_1,q_2,q_3\}$$ are determined internally by $$\{A,L\}$$.
 
-It is very useful for matrix computation problems related to matrix-pairs, such as
+<!-- It is very useful for matrix computation problems related to matrix-pairs, such as -->
 
-* Generalized least squares problem:
+<!-- * Generalized least squares problem: -->
 
-$$\min_{x\in\mathbb{R}^{n}}\|Lx\|_2 \ \ \ \mathrm{s.t.} \ \ \ 
-	\|Ax-b\|_{2}=\min $$
+<!-- $$\min_{x\in\mathbb{R}^{n}}\|Lx\|_2 \ \ \ \mathrm{s.t.} \ \ \ 
+	\|Ax-b\|_{2}=\min $$ -->
+<!-- 
+* Least squares problem with linear constraints: -->
 
-* Least squares problem with linear constraints:
+<!-- $$\min_{x\in\mathbb{R}^{n}}\|Ax-b\|_2 \quad \mathrm{s.t.} \quad 
+	Lx = d $$ -->
 
-$$\min_{x\in\mathbb{R}^{n}}\|Ax-b\|_2 \quad \mathrm{s.t.} \quad 
-	Lx = d $$
+<!-- * General-form Tikhonov regularization: -->
 
-* General-form Tikhonov regularization:
-
-$$\min_{x\in\mathbb{R}^{n}}\{\|Ax-b\|_{2}^{2}+\lambda\|Lx\|_{2}^{2}\} \quad \mathrm{or} \quad
+<!-- $$\min_{x\in\mathbb{R}^{n}}\{\|Ax-b\|_{2}^{2}+\lambda\|Lx\|_{2}^{2}\} \quad \mathrm{or} \quad
 \min_{x\in\mathbb{R}^{n}}\|Ax-b\|_{2}^{2} \quad \mathrm{s.t.} \quad 
 \|Lx\|_{2}\leq \delta .
-$$
+$$  -->
 
-This project focuses on analyzing GSVD from new perpectives, which leads to new numerical methods for its computation, and also new understanding and computation of the above matrix-pair problems.
-
+This project focuses on analyzing GSVD from new perspectives, which leads to new numerical methods for its computation, and also new understanding and computation of the matrix-pair problems.
 Here are several related papers:
 
 * [Li, H. (2025). Krylov iterative methods for linear least squares problems with linear equality constraints. arXiv:2501.01655.](https://doi.org/10.48550/arXiv.2501.01655)
@@ -184,8 +183,6 @@ Here are several related papers:
 <h3>Scientific computing applications</h3>
 
 Ab-initio molecular dynamcis simulations, using classical computational methods based on density functional theory (which involves a nonlinear eigenvalue problem as a core component), or machine learning approaches such as the "neural network force field" model.
-
-
 Here are several related papers:
 
 * [Li, H., Wu, X., Liu, L., Wang, L., Wang, L.-W., Tan, G., & Jia, W. (2024). ALKPU: An Active Learning Method for the DeePMD Model with Kalman Filtering. arXiv:2411.13850.](https://doi.org/10.48550/arXiv.2411.13850)
