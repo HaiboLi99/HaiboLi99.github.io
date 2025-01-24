@@ -15,8 +15,8 @@
       "(2011-2015) B.S. Mathematics, Taishan College (mathematics), Shandong University",
     ]
 
-  educationshort:
-    [
-      "(2021) Ph.D.,  Tsinghua University",
-      "(2015) B.S.,   Shandong University",
-    ]
+  # educationshort:
+  #   [
+  #     "(2021) Ph.D.,  Tsinghua University",
+  #     "(2015) B.S.,   Shandong University",
+  #   ]
