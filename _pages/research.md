@@ -37,7 +37,7 @@ iframe {
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
-<h3>Iterative regularization for inverse problems</h3>
+<h3>Regularization for inverse problems</h3>
 
 Given a forward map $$G:X\rightarrow Y$$ between two separable Hilbert spaces $X$ and $Y$, the corresponding inverse problem can usually be written as 
 
