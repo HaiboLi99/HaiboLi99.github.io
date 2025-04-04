@@ -158,13 +158,13 @@ $$  -->
 This project focuses on analyzing GSVD from new perspectives, which leads to new numerical methods for its computation, and also new understanding and computation of the matrix-pair problems.
 Here are several related papers:
 
+* [Li, H. (2025). A new interpretation of the weighted pseudoinverse and its applications. SIAM Journal on Matrix Analysis and Applications, 46(2), 934--956.](https://doi.org/10.1137/24M1686073)
+
 * [Li, H. (2025). Krylov iterative methods for linear least squares problems with linear equality constraints. arXiv:2501.01655.](https://doi.org/10.48550/arXiv.2501.01655)
 
 * [Li, H. (2025). Characterizing GSVD by singular value expansion of linear operators and its computation. SIAM Journal on Matrix Analysis and Applications, 46(1), 439--465.](https://doi.org/10.1137/24M1651150)
 
 * [Li, H., Tan, G., & Zhao, T. (2025). Backward error analysis of the Lanczos bidiagonalization with reorthogonalization. Journal of Computational and Applied Mathematics, 460, 116414.](https://doi.org/10.1016/j.cam.2024.116414)
-
-* [Li, H. (2024). A new interpretation of the weighted pseudoinverse and its applications. arXiv:2408.09412.](https://doi.org/10.48550/arXiv.2408.09412)
 
 * [Li, H. (2024). The Joint Bidiagonalization of a Matrix Pair with Inaccurate Inner Iterations. SIAM Journal on Matrix Analysis and Applications, 45(1), 232--259.](https://doi.org/10.1137/22M1541083)
 
