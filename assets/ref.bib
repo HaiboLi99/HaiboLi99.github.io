@@ -20,15 +20,6 @@
   abstract = {We consider the linear least squares problem with linear equality constraints (LSE problem) formulated as min ||Ax-b||_2 s.t Cx=d. Although there are some classical methods available to solve this problem, most of them rely on matrix factorizations or require the null space of C, which limits their applicability to large-scale problems. To address this challenge, we present a novel analysis of the LSE problem from the perspective of operator-type least squares (LS) problems, where the linear operators are induced by {A, C}. We show that the solution of the LSE problem can be decomposed into two components, each corresponding to the solution of an operator-form LS problem. Building on this decomposed-form solution, we propose two Krylov subspace based iterative methods to approximate each component, thereby providing an approximate solution of the LSE problem. Several numerical examples are constructed to test the proposed iterative algorithm for solving the LSE problems, which demonstrate the effectiveness of the algorithms.}
 }
 
-@unpublished{li2024projected,
-  Title={Projected Newton method for large-scale Bayesian linear inverse problems},
-  Author={Li, Haibo},
-  Note={arXiv:2403.01920},
-  doi = {2403.01920},
-  year={2024},
-  file = {2024-ProjN.pdf},
-  abstract = {Computing the regularized solution of Bayesian linear inverse problems as well as the corresponding regularization parameter is highly desirable in many applications. This paper proposes a novel iterative method, termed the Projected Newton method (PNT), that can simultaneously update the regularization parameter and solution step by step without requiring any high-cost matrix inversions or decompositions. By reformulating the Tikhonov regularization as a constrained minimization problem and writing its Lagrangian function, a Newton-type method coupled with a Krylov subspace method, called the generalized Golub-Kahan bidiagonalization, is employed for the unconstrained Lagrangian function. The resulting PNT algorithm only needs solving a small-scale linear system to get a descent direction of a merit function at each iteration, thus significantly reducing computational overhead. Rigorous convergence results are proved, showing that PNT always converges to the unique regularized solution and the corresponding Lagrangian multiplier. Experimental results on both small and large-scale Bayesian inverse problems demonstrate its excellent convergence property, robustness and efficiency. Given that the most demanding computational tasks in PNT are primarily matrix-vector products, it is particularly well-suited for large-scale problems.}
-}
 
 @unpublished{li2024scalable,
   Title={Scalable iterative data-adaptive RKHS regularization},
@@ -73,6 +64,26 @@
 
 
 % Refereed journal articles
+
+@article{li2024projected,
+  Title={Projected Newton method for large-scale Bayesian linear inverse problems},
+  author={Li, Haibo},
+  journal = {SIAM Journal on Optimization (accepted)},
+  year = {2025},
+  file = {2024-ProjN.pdf},
+  abstract = {Computing the regularized solution of Bayesian linear inverse problems as well as the corresponding regularization parameter is highly desirable in many applications. This paper proposes a novel iterative method, termed the Projected Newton method (PNT), that can simultaneously update the regularization parameter and solution step by step without requiring any high-cost matrix inversions or decompositions. By reformulating the Tikhonov regularization as a constrained minimization problem and writing its Lagrangian function, a Newton-type method coupled with a Krylov subspace method, called the generalized Golub-Kahan bidiagonalization, is employed for the unconstrained Lagrangian function. The resulting PNT algorithm only needs solving a small-scale linear system to get a descent direction of a merit function at each iteration, thus significantly reducing computational overhead. Rigorous convergence results are proved, showing that PNT always converges to the unique regularized solution and the corresponding Lagrangian multiplier. Experimental results on both small and large-scale Bayesian inverse problems demonstrate its excellent convergence property, robustness and efficiency. Given that the most demanding computational tasks in PNT are primarily matrix-vector products, it is particularly well-suited for large-scale problems.}
+}
+
+
+
+
+
+
+
+
+
+
+
 @article{li2024new,
   title={A new interpretation of the weighted pseudoinverse and its applications},
   author={Li, Haibo},
