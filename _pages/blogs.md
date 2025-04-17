@@ -40,7 +40,7 @@ permalink: /blogs/
 
 
 
-<div class="jumbotron">
+<!-- <div class="jumbotron">
   <h3>Photos</h3>
   <ul>
     {% assign target_slugs = site.data.slugs.slugs.photos %}
@@ -52,4 +52,4 @@ permalink: /blogs/
       {% endif %}
     {% endfor %}
   </ul>
-</div>
+</div> -->
