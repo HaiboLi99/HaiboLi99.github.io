@@ -31,15 +31,6 @@
   abstract = {We present iDARR, a scalable iterative Data-Adaptive RKHS Regularization method, for solving ill-posed linear inverse problems. The method searches for solutions in subspaces where the true solution can be identified, with the data-adaptive RKHS penalizing the spaces of small singular values. At the core of the method is a new generalized Golub-Kahan bidiagonalization procedure that recursively constructs orthonormal bases for a sequence of RKHS-restricted Krylov subspaces. The method is scalable with a complexity of O(kmn) for m-by-n matrices with k denoting the iteration numbers. Numerical tests on the Fredholm integral equation and 2D image deblurring show that it outperforms the widely used L2 and l2 norms, producing stable accurate solutions consistently converging when the noise level decays.}
 }
 
-@unpublished{li2023generalizing,
-  Title={Generalizing the SVD of a matrix under non-standard inner product and its applications to linear ill-posed problems},
-  Author={Li, Haibo},
-  Note={arXiv:2312.10403},
-  doi = {2312.10403},
-  year={2023},
-  file = {2023-Generalizing.pdf},
-  abstract = {The singular value decomposition (SVD) of a matrix is a powerful tool for many matrix computation problems. In this paper, we consider generalizing the standard SVD to analyze and compute the regularized solution of linear ill-posed problems that arise from discretizing the first kind Fredholm integral equations. For the commonly used quadrature method for discretization, a regularizer of the form ∥x∥2M:=xTMx should be exploited, where M is symmetric positive definite. To handle this regularizer, we give the weighted SVD (WSVD) of a matrix under the M-inner product. Several important applications of WSVD, such as low-rank approximation and solving the least squares problems with minimum ∥⋅∥M-norm, are studied. We propose the weighted Golub-Kahan bidiagonalization (WGKB) to compute several dominant WSVD components and a corresponding weighted LSQR algorithm to iteratively solve the least squares problem. All the above tools and methods are used to analyze and solve linear ill-posed problems with the regularizer ∥x∥2M. A WGKB-based subspace projection regularization method is proposed to efficiently compute a good regularized solution, which can incorporate the prior information about x encoded by the regularizer ∥x∥2M. Several numerical experiments are performed to illustrate the fruitfulness of our methods.}
-}
 
 @unpublished{li2023subspace,
   Title={Subspace projection regularization for large-scale Bayesian linear inverse problems},
@@ -64,6 +55,19 @@
 
 
 % Refereed journal articles
+
+@article{li2023generalizing,
+  Title={Generalizing the SVD of a matrix under non-standard inner product and its applications to linear ill-posed problems},
+  Author={Li, Haibo},
+  journal = {Applied Mathematics and Computation},
+  volume={508},
+  number={1},
+  pages={1-23},
+  doi = {10.1016/j.amc.2025.129608},
+  year={2026},
+  file = {2023-Generalizing.pdf},
+  abstract = {The singular value decomposition (SVD) of a matrix is a powerful tool for many matrix computation problems. In this paper, we consider generalizing the standard SVD to analyze and compute the regularized solution of linear ill-posed problems that arise from discretizing the first kind Fredholm integral equations. For the commonly used quadrature method for discretization, a regularizer of the form ∥x∥2M:=xTMx should be exploited, where M is symmetric positive definite. To handle this regularizer, we give the weighted SVD (WSVD) of a matrix under the M-inner product. Several important applications of WSVD, such as low-rank approximation and solving the least squares problems with minimum ∥⋅∥M-norm, are studied. We propose the weighted Golub-Kahan bidiagonalization (WGKB) to compute several dominant WSVD components and a corresponding weighted LSQR algorithm to iteratively solve the least squares problem. All the above tools and methods are used to analyze and solve linear ill-posed problems with the regularizer ∥x∥2M. A WGKB-based subspace projection regularization method is proposed to efficiently compute a good regularized solution, which can incorporate the prior information about x encoded by the regularizer ∥x∥2M. Several numerical experiments are performed to illustrate the fruitfulness of our methods.}
+}
 
 @article{li2024projected,
   Title={Projected Newton method for large-scale Bayesian linear inverse problems},
