@@ -4,51 +4,280 @@
 
 $baseurl: "{{ site.url }}{{ site.baseurl }}";
 
-// @import "variables";
+// 样式依赖引入
 @import "bootstrap/bootstrap";
-// @import "syntax-highlighting";
 @import "bootstrap-4-jekyll/bootstrap-4-jekyll";
-// @import "bootstrap_customization";
 @import "bootstrap";
 @import "SHB_css";
 
+// ============================
+// 基础容器设置
+// ============================
 
 .container-fluid {
-    // background-color: #333;  /* 背景色 */
-    // color: white;  /* 文字颜色 */
-    padding: 5px 0; /* 可选：添加垂直内边距 */
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 1200px; /* or 950px */
-    font-size: 20px; /* 设置字体大小为 16px */
-  }
-  
+  padding: 5px 0;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1200px;
+  font-size: 20px;
+}
 
-/* 修改导航栏字体大小 */
 .navbar-nav .nav-link {
-    font-size: 30px;  /* 设置字体大小为18px */
-    padding-bottom: 1px;  /* 设置菜单项与下边框之间的间距 */
-} 
-  
+  font-size: 30px;
+  padding-bottom: 1px;
+}
+
+// ============================
+// 页脚容器
+// ============================
+
 .container-footer {
-    background-color: #333;  /* 背景色 */
-    color: white;  /* 文字颜色 */
-    border-top: 4px solid #444; /* 为页脚添加顶部边框 */
-    margin-top: 3px;  /* 添加顶部外边距，调整页脚与上方元素的距离 */
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 3000px; /* or 950px */
-    width: 100%;  /* 页脚占满整个可用宽度 */
-    padding-top: 10px;  /* 添加顶部内边距，增加内容与顶部边框的距离 */
-    padding-left: 30px;  /* 添加更多左侧内边距，增加与左边框的距离 */
-  }
+  border-top: 3px solid #444;
+  margin-top: 3px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 3000px;
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 30px;
+  background-color: inherit;
+  color: inherit;
+}
 
-/* 控制日期与内容之间的距离 */
 .footer-date {
-    margin-top: -25px; /* 可以调整为合适的数值来增加或减少间距 */
-    padding: 5px 0; /* 可选：添加垂直内边距 */
-    color: white; /* 保证文字颜色与页脚一致 */
+  margin-top: -25px;
+  padding: 5px 0;
+  color: inherit;
+}
+
+/* 亮色主题底栏 */
+body.light-theme .container-footer {
+  background-color: #f9f9f9;
+  color: #4a4a4a;
+  border-top: 3px solid #ccc;
+}
+
+
+// ============================
+// 明暗模式变量定义
+// ============================
+
+:root {
+  --bg-color-dark: #1e1e1e;
+  --text-color-dark: #ffffff;
+  --bg-color-light: #ffffff;
+  --text-color-light: #000000;
+
+  --footer-bg-dark: #333;
+  --footer-bg-light: #f0f0f0;
+}
+
+// ============================
+// 主题样式定义
+// ============================
+
+body.dark-theme {
+  background-color: var(--bg-color-dark);
+  color: var(--text-color-dark);
+}
+
+body.dark-theme .container,
+body.dark-theme .jumbotron,
+body.dark-theme .card,
+body.dark-theme .navbar,
+body.dark-theme .container-footer {
+  background-color: var(--bg-color-dark);
+  color: var(--text-color-dark);
+}
+
+body.dark-theme .container-footer {
+  background-color: var(--footer-bg-dark);
+  color: var(--text-color-dark);
+}
+
+body.light-theme {
+  background-color: var(--bg-color-light);
+  color: var(--text-color-light);
+}
+
+body.light-theme .container,
+body.light-theme .jumbotron,
+body.light-theme .card,
+body.light-theme .navbar,
+body.light-theme .container-footer {
+  background-color: var(--bg-color-light);
+  color: var(--text-color-light);
+}
+
+body.light-theme .container-footer {
+  background-color: var(--footer-bg-light);
+  color: var(--text-color-light);
+}
+
+// ============================
+// 链接样式（建议）
+// ============================
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+
+
+
+// ============================
+// Jumbotron 特定背景和边框（突出方块感）
+// ============================
+
+.jumbotron {
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-theme .jumbotron {
+  background-color: #333;  // 完全复刻你之前的色调
+  border: 1px solid #444;
+}
+
+body.light-theme .jumbotron {
+  background-color: #f9f9f9;  // 比 body 浅一点
+  border: 1px solid #ccc;
+}
+
+
+// ============================
+// 明暗主题链接颜色设置（绿色）
+// ============================
+
+body.dark-theme a {
+  color: #1abc9c;  // 深绿松石色，截图中的真实颜色
+}
+
+body.dark-theme a:hover {
+  color: #48e0c2;  // hover 稍微亮一点
+}
+
+body.light-theme a {
+  color: #0969da;  // 稳重清晰的学术蓝
+}
+
+body.light-theme a:hover {
+  color: #054da7;  // 更深一点，用于 hover 提示
+}
+
+
+// setting for links
+a font.resource-link {
+  font-size: 0.8em;  // 等效于 size="3"
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+/* 暗色主题 */
+body.dark-theme a font.resource-link {
+  color: #00ffff;
+}
+
+body.dark-theme a:hover font.resource-link {
+  color: #33ffff;
+}
+
+/* 亮色主题 */
+body.light-theme a font.resource-link {
+  color: #36a9d5;  
+}
+
+body.light-theme a:hover font.resource-link {
+  color: #288db5;  
+  text-decoration: underline;
+}
+
+
+
+// ============================
+// 明/亮色主题下的 navbar 样式覆盖
+// ============================
+
+body.dark-theme .navbar.navbar-dark.bg-dark {
+  background-color: #333 !important;
+  color: #f0f0f0 !important;
+
+  .nav-link,
+  .navbar-text,
+  .btn {
+    color: #bbbbbb !important;
+    transition: color 0.5s ease, font-weight 0.5s ease;
   }
 
+  .nav-link:hover,
+  .navbar-text:hover,
+  .btn:hover {
+    color: #ffffff !important;
+    font-weight: 500; // 和名字统一
+    text-shadow: 0 0 1px rgba(255, 255, 255, 2);
+    filter: brightness(150%);
+  }
 
+  .btn-outline-light {
+    border-color: #bbbbbb !important;
+    color: #bbbbbb !important;
+    transition: color 0.5s ease, background-color 0.5s ease;
+  }
+
+  .btn-outline-light:hover {
+    background-color: #bbbbbb !important;
+    color: #000000 !important;
+  }
+
+  .navbar-brand span {
+    color: #ffffff !important;
+    font-weight: 500;
+  }
+}
+
+
+
+body.light-theme .navbar.navbar-dark.bg-dark {
+  background-color: #f9f9f9 !important;
+  color: #4a4a4a !important;
+
+  .nav-link,
+  .navbar-text,
+  .btn {
+    color: #4a4a4a !important;
+    transition: color 0.5s ease;  // ✅ 添加平滑过渡效果
+  }
+
+  .nav-link:hover,
+  .navbar-text:hover,
+  .btn:hover {
+    color: #000000 !important;    // ✅ 悬停时变为纯黑
+    text-shadow: 0 0 1px rgba(0, 0, 0, 2);
+  }
+
+  .btn-outline-light {
+    border-color: #4a4a4a !important;
+    color: #4a4a4a !important;
+    transition: color 0.5s ease, background-color 0.5s ease; // ✅ 平滑过渡
+  }
+
+  .btn-outline-light:hover {
+    background-color: #4a4a4a !important; 
+    color: #ffffff !important;
+  }
+
+  .navbar-brand span {
+    color: #000000 !important;   // ✅ 保持纯黑
+    font-weight: 550;            // ✅ 稍微加粗
+  }
+
+  border: 1px solid #ccc;
+}
 
