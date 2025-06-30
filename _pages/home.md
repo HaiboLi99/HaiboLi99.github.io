@@ -21,32 +21,19 @@ I am always looking for collaborate with researchers from mathematics, statistic
 <br/>
 
 
-
-<!-- ### About Mathematics
-
-Mathematics is the study of numbers, quantities, shapes, structures, and patterns, as well as the relationships between them. It involves abstract reasoning and logical deduction to understand and describe the world around us in a precise and systematic way. Mathematics can be applied in countless fields, such as science, engineering, economics, and even art, to solve problems, model real-world phenomena, and make predictions.
-
-<div class="container">
-<div class="row">
-<center>
-<img src="{{ site.url }}{{ site.baseurl }}/images/Gyroid.jpg" width="80%"/><br/>
-Gyroid, a type of minimal surface that have cropped up in the design of microparticles for drug delivery. <br/>
-<!-- by Paul Nylander -->
-<!-- </center>
-</div>
-</div>
-<br/> --> 
-
 <br/> 
 
 
 #### Useful Resources
 
-* <a href='https://cims.nyu.edu/dynamic/' target='_blank'><font color=cyan size="3">Courant Institute of Mathematical Sciences, NYU</font><a>
-* <a href='https://www.ipam.ucla.edu/' target='_blank'><font color=cyan size="3">Institute for Pure and Applied Mathematics, UCLA</font><a>
-* <a href='https://www.mis.mpg.de/' target='_blank'><font color=cyan size="3">Max-Planck-Institute for Mathematics in the Sciences</font><a>
-* <a href='https://www.mfo.de/' target='_blank'><font color=cyan size="3">Mathematical Research Institute of Oberwolfach</font><a>
-* <a href='https://ymsc.tsinghua.edu.cn/en/index.htm' target='_blank'><font color=cyan size="3">Yau Mathematical Sciences Center, Tsinghua University</font><a>
-* <a href='https://terrytao.wordpress.com/' target='_blank'><font color=cyan size="3">What's new--Terence Tao's Blog</font><a>
-* <a href='http://bactra.org/notebooks/' target='_blank'><font color=cyan size="3">Cosma Shalizi's Notebooks</font><a>
+* <a href='https://cims.nyu.edu/dynamic/' target='_blank'><font class="resource-link">Courant Institute of Mathematical Sciences, NYU</font></a>
+* <a href='https://www.ipam.ucla.edu/' target='_blank'><font class="resource-link">Institute for Pure and Applied Mathematics, UCLA</font></a>
+* <a href='https://www.mis.mpg.de/' target='_blank'><font class="resource-link">Max-Planck-Institute for Mathematics in the Sciences</font></a>
+* <a href='https://www.mfo.de/' target='_blank'><font class="resource-link">Mathematical Research Institute of Oberwolfach</font></a>
+* <a href='https://ymsc.tsinghua.edu.cn/en/index.htm' target='_blank'><font class="resource-link">Yau Mathematical Sciences Center, Tsinghua University</font></a>
+* <a href='https://terrytao.wordpress.com/' target='_blank'><font class="resource-link">What's new--Terence Tao's Blog</font></a>
+* <a href='http://bactra.org/notebooks/' target='_blank'><font class="resource-link">Cosma Shalizi's Notebooks</font></a>
+
+
+
 
