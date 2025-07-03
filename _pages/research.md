@@ -57,7 +57,7 @@ Such a problem arises frequently in image processing, computed tomography, geoph
 This project mainly focuses on the regularization and its iterative computation for ill-posed inverse problems. We aim to develop efficient iterative regularization methods for different types of regularizers.
 Here are several related papers:
 
-* [Li, H. (2024). Projected Newton method for large-scale Bayesian linear inverse problems. arXiv:2403.01920.](https://doi.org/10.48550/arXiv.2403.01920)
+* [Li, H. (2024). Projected Newton method for large-scale Bayesian linear inverse problems. SIAM Journal on Optimization, 35(3),1439--1468.](https://doi.org/10.1137/24M1645838)
 
 * [Li, H., Feng, J., & Lu, F. (2024). Scalable iterative data-adaptive RKHS regularization. arXiv:2401.00656.](https://doi.org/10.48550/arXiv.2401.00656)
 
@@ -67,7 +67,7 @@ Here are several related papers:
 
 * [Li, H. (2023). Subspace projection regularization for large-scale Bayesian linear inverse problems. arXiv:2310.18618.](https://doi.org/10.48550/arXiv.2310.18618)
 
-* [Li, H. (2023). Generalizing the SVD of a matrix under non-standard inner product and its applications to linear ill-posed problems. arXiv:2312.10403.](https://doi.org/10.48550/arXiv.2312.10403)
+* [Li, H. (2026). Generalizing the SVD of a matrix under non-standard inner product and its applications to linear ill-posed problems. Applied Mathematics and Computation, 508 (1), 1-23.](https://doi.org/10.1016/j.amc.2025.129608)
 
 </div>
 </div>
