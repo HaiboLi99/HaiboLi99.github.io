@@ -6,6 +6,7 @@ name:
     - name1: SIAM Journal on Matrix Analysis and Applications
     - name1: BIT Numerical Mathematics
     - name1: Numerical Algorithms
+    - name1: ZAMM - Journal of Applied Mathematics and Mechanics 
 
   # Reviewer of conferences
   conferences:
