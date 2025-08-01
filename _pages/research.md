@@ -40,22 +40,20 @@ iframe {
 <h3>Regularization for inverse problems</h3>
 
 Given a forward map $$G:X\rightarrow Y$$ between two separable Hilbert spaces $X$ and $Y$, the corresponding inverse problem can usually be written as 
-
-$$
+$
   y = G(u) + \delta
-$$
-
-where $\delta\in Y$ is an error in the deterministic case; or 
-
-$$
+$
+where $\delta\in Y$ is an error in the deterministic case, or 
+$
 	y = G(u)+\eta
-$$
-
+$
 where $\eta$ is a $Y$-valued random variable in the stochastic case.
-Such a problem arises frequently in image processing, computed tomography, geophysics, data assimilation, etc. Most inverse problems are ill-posed, posing big challenges for analysis and computation.
+Such problems arise frequently in image processing, computed tomography, geophysics, data assimilation, etc. Most inverse problems are ill-posed, posing big challenges for analysis and computation.
 
 This project mainly focuses on the regularization and its iterative computation for ill-posed inverse problems. We aim to develop efficient iterative regularization methods for different types of regularizers.
 Here are several related papers:
+
+* [Li, H., & Lu, F. (2025). Automatic reproducing kernel and regularization for learning convolution kernels. arXiv:2507.11944.](https://arxiv.org/abs/2507.11944)
 
 * [Li, H. (2024). Projected Newton method for large-scale Bayesian linear inverse problems. SIAM Journal on Optimization, 35(3),1439--1468.](https://doi.org/10.1137/24M1645838)
 
@@ -76,14 +74,14 @@ Here are several related papers:
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
-<h3>GSVD computation and related matrix-pair problems</h3>
+<h3>GSVD and matrix-pair problems</h3>
 The Generalized Singular Value Decomposition (GSVD) of a matrix-pair is a generalization of the SVD. It is a powerful tool for analysis and computation of many matrix-pair problems. 
-Given two matrices $A\in\mathbb{R}^{m\times n}$ and $L\in\mathbb{R}^{p\times n}$ with $\mathrm{rank}((A^{\top},L^{\top})^{\top})=r$. The GSVD of $$\{A,L\}$$ is
+<!-- Given two matrices $A\in\mathbb{R}^{m\times n}$ and $L\in\mathbb{R}^{p\times n}$ with $\mathrm{rank}((A^{\top},L^{\top})^{\top})=r$. The GSVD of $$\{A,L\}$$ is -->
 
-$$
+<!-- $$
 	  A = P_{A}C_AX^{-1}, \ \ \ \ L = P_{L}S_LX^{-1} ,
-$$
-
+$$ -->
+<!-- 
 where 
 
 $$
@@ -105,9 +103,9 @@ S_{L}= & \left[
 & \begin{array}{c} p \end{array} \\
 & \begin{array}{c c} r & n-r \\ \end{array} &
 \end{array}
-$$
+$$ -->
 
-with 
+<!-- with 
 
 $$
 \begin{array}{c c c} 
@@ -134,7 +132,7 @@ I_{q_1} & & \\
 \end{array}
 $$
 
-where $q_1+q_2+q_3=r$, and  $P_{A}\in \mathbb{R}^{m\times m}$, $P_{L}\in \mathbb{R}^{p\times p}$ are orthogonal, $X\in\mathbb{R}^{n\times n}$ is invertible, and $\Sigma_{A}^{\top}\Sigma_A+\Sigma_{L}^{\top}\Sigma_L=I_{r}$. The values of $$\{q_1,q_2,q_3\}$$ are determined internally by $$\{A,L\}$$.
+where $q_1+q_2+q_3=r$, and  $P_{A}\in \mathbb{R}^{m\times m}$, $P_{L}\in \mathbb{R}^{p\times p}$ are orthogonal, $X\in\mathbb{R}^{n\times n}$ is invertible, and $\Sigma_{A}^{\top}\Sigma_A+\Sigma_{L}^{\top}\Sigma_L=I_{r}$. The values of $$\{q_1,q_2,q_3\}$$ are determined internally by $$\{A,L\}$$. -->
 
 <!-- It is very useful for matrix computation problems related to matrix-pairs, such as -->
 
@@ -154,7 +152,6 @@ where $q_1+q_2+q_3=r$, and  $P_{A}\in \mathbb{R}^{m\times m}$, $P_{L}\in \mathbb
 \min_{x\in\mathbb{R}^{n}}\|Ax-b\|_{2}^{2} \quad \mathrm{s.t.} \quad 
 \|Lx\|_{2}\leq \delta .
 $$  -->
-
 This project focuses on analyzing GSVD from new perspectives, which leads to new numerical methods for its computation, and also new understanding and computation of the matrix-pair problems.
 Here are several related papers:
 

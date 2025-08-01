@@ -186,17 +186,18 @@ body.dark-theme a font.resource-link {
 }
 
 body.dark-theme a:hover font.resource-link {
-  color: #33ffff;
+  color: #00ffff;
+  // text-decoration: underline;
 }
 
 /* 亮色主题 */
 body.light-theme a font.resource-link {
-  color: #36a9d5;  
+  color: #36add5;  
 }
 
 body.light-theme a:hover font.resource-link {
-  color: #288db5;  
-  text-decoration: underline;
+  color: #36add5;  
+  // text-decoration: underline;
 }
 
 
@@ -259,7 +260,7 @@ body.light-theme .navbar.navbar-dark.bg-dark {
   .navbar-text:hover,
   .btn:hover {
     color: #000000 !important;    // ✅ 悬停时变为纯黑
-    text-shadow: 0 0 1px rgba(0, 0, 0, 2);
+    text-shadow: 0 0 0.6px rgba(0, 0, 0, 2);
   }
 
   .btn-outline-light {
