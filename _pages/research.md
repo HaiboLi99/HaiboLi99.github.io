@@ -53,19 +53,11 @@ Such problems arise frequently in image processing, computed tomography, geophys
 This project mainly focuses on the regularization and its iterative computation for ill-posed inverse problems. We aim to develop efficient iterative regularization methods for different types of regularizers.
 Here are several related papers:
 
-* [Li, H., & Lu, F. (2025). Automatic reproducing kernel and regularization for learning convolution kernels. arXiv:2507.11944.](https://arxiv.org/abs/2507.11944)
-
 * [Li, H. (2024). Projected Newton method for large-scale Bayesian linear inverse problems. SIAM Journal on Optimization, 35(3),1439--1468.](https://doi.org/10.1137/24M1645838)
 
 * [Li, H., Feng, J., & Lu, F. (2024). Scalable iterative data-adaptive RKHS regularization. arXiv:2401.00656.](https://doi.org/10.48550/arXiv.2401.00656)
 
 * [Li, H. (2024). A preconditioned Krylov subspace method for linear inverse problems with general-form Tikhonov regularization. SIAM Journal on Scientific Computing, 46(4), A2607–A2633.](https://doi.org/10.1137/23M1593802)
-
-* [Li, H. (2024). Double precision is not necessary for LSQR for solving discrete linear ill-posed problems. Journal of Scientific Computing, 98(3), 55.](https://doi.org/10.1007/s10915-023-02447-4)
-
-* [Li, H. (2023). Subspace projection regularization for large-scale Bayesian linear inverse problems. arXiv:2310.18618.](https://doi.org/10.48550/arXiv.2310.18618)
-
-* [Li, H. (2026). Generalizing the SVD of a matrix under non-standard inner product and its applications to linear ill-posed problems. Applied Mathematics and Computation, 508 (1), 1-23.](https://doi.org/10.1016/j.amc.2025.129608)
 
 </div>
 </div>
@@ -160,14 +152,6 @@ Here are several related papers:
 * [Li, H. (2025). Krylov iterative methods for linear least squares problems with linear equality constraints. arXiv:2501.01655.](https://doi.org/10.48550/arXiv.2501.01655)
 
 * [Li, H. (2025). Characterizing GSVD by singular value expansion of linear operators and its computation. SIAM Journal on Matrix Analysis and Applications, 46(1), 439--465.](https://doi.org/10.1137/24M1651150)
-
-* [Li, H., Tan, G., & Zhao, T. (2025). Backward error analysis of the Lanczos bidiagonalization with reorthogonalization. Journal of Computational and Applied Mathematics, 460, 116414.](https://doi.org/10.1016/j.cam.2024.116414)
-
-* [Li, H. (2024). The Joint Bidiagonalization of a Matrix Pair with Inaccurate Inner Iterations. SIAM Journal on Matrix Analysis and Applications, 45(1), 232--259.](https://doi.org/10.1137/22M1541083)
-
-* [Jia, Z., & Li, H. (2023). The Joint Bidiagonalization Method for Large GSVD Computations in Finite Precision. SIAM Journal on Matrix Analysis and Applications, 44(1), 382--407.](https://doi.org/10.1137/22M1483608)
-
-* [Jia, Z., & Li, H. (2021). The joint bidiagonalization process with partial reorthogonalization. Numerical Algorithms, 88, 965--992.](https://doi.org/10.1007/s11075-020-01064-8)
 
 </div>
 </div>
