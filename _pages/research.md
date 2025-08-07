@@ -32,7 +32,7 @@ iframe {
 }
 </style>
 
-## Research
+<!-- ### Research -->
 
 
 <div class="jumbotron">
@@ -54,9 +54,7 @@ This project mainly focuses on the regularization and its iterative computation 
 Here are several related papers:
 
 * [Li, H. (2024). Projected Newton method for large-scale Bayesian linear inverse problems. SIAM Journal on Optimization, 35(3),1439--1468.](https://doi.org/10.1137/24M1645838)
-
 * [Li, H., Feng, J., & Lu, F. (2024). Scalable iterative data-adaptive RKHS regularization. arXiv:2401.00656.](https://doi.org/10.48550/arXiv.2401.00656)
-
 * [Li, H. (2024). A preconditioned Krylov subspace method for linear inverse problems with general-form Tikhonov regularization. SIAM Journal on Scientific Computing, 46(4), A2607–A2633.](https://doi.org/10.1137/23M1593802)
 
 </div>
@@ -148,9 +146,7 @@ This project focuses on analyzing GSVD from new perspectives, which leads to new
 Here are several related papers:
 
 * [Li, H. (2025). A new interpretation of the weighted pseudoinverse and its applications. SIAM Journal on Matrix Analysis and Applications, 46(2), 934--956.](https://doi.org/10.1137/24M1686073)
-
 * [Li, H. (2025). Krylov iterative methods for linear least squares problems with linear equality constraints. arXiv:2501.01655.](https://doi.org/10.48550/arXiv.2501.01655)
-
 * [Li, H. (2025). Characterizing GSVD by singular value expansion of linear operators and its computation. SIAM Journal on Matrix Analysis and Applications, 46(1), 439--465.](https://doi.org/10.1137/24M1651150)
 
 </div>
@@ -167,9 +163,7 @@ Ab-initio molecular dynamcis simulations, using classical computational methods 
 Here are several related papers:
 
 * [Li, H., Wu, X., Liu, L., Wang, L., Wang, L.-W., Tan, G., & Jia, W. (2024). ALKPU: An Active Learning Method for the DeePMD Model with Kalman Filtering. arXiv:2411.13850.](https://doi.org/10.48550/arXiv.2411.13850)
-
 * [Liu, R., Guo, Z., Sha, Q., Zhao, T., Li, H., Hu, W., Liu, L., Tan, G., & Jia, W. (2024). Large Scale Finite-Temperature Real-time Time Dependent Density Functional Theory Calculation with Hybrid Functional on ARM and GPU Systems. arXiv:2501.03061](https://doi.org/10.48550/arXiv.2501.03061)
-
 * [Yan, Y.-J., Li, H.-B., Zhao, T., Wang, L.-W., Shi, L., Liu, T., Tan, G.-M., Jia, W.-L., & Sun, N.-H. (2024). 10-Million Atoms Simulation of First-Principle Package LS3DF. Journal of Computer Science and Technology, 39(1), 45–62.](https://doi.org/10.1007/s11390-023-3011-6)
 
 
