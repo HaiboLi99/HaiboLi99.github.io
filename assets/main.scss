@@ -24,6 +24,7 @@ $baseurl: "{{ site.url }}{{ site.baseurl }}";
 
 .navbar-nav .nav-link {
   font-size: 28px;
+  font-weight: 500;
   padding-bottom: 1px;
 }
 
@@ -38,8 +39,8 @@ $baseurl: "{{ site.url }}{{ site.baseurl }}";
   margin-left: auto;
   max-width: none;
   width: 100%;
-  padding-top: 10px;
-  padding-left: 30px;
+  padding-top: 5px;
+  padding-left: 20px;
   background-color: inherit;
   color: inherit;
 }
@@ -238,7 +239,7 @@ body.dark-theme .navbar.navbar-dark.bg-dark {
   .navbar-text,
   .btn {
     color: #bbbbbb !important;
-    transition: color 0.5s ease, font-weight 0.5s ease;
+    transition: color 0.3s ease, font-weight 0.3s ease;
   }
 
   .nav-link:hover,
@@ -253,7 +254,7 @@ body.dark-theme .navbar.navbar-dark.bg-dark {
   .btn-outline-light {
     border-color: #bbbbbb !important;
     color: #bbbbbb !important;
-    transition: color 0.5s ease, background-color 0.5s ease;
+    transition: color 0.3s ease, background-color 0.3s ease;
   }
 
   .btn-outline-light:hover {
@@ -263,7 +264,7 @@ body.dark-theme .navbar.navbar-dark.bg-dark {
 
   .navbar-brand span {
     color: #ffffff !important;
-    font-weight: 500;
+    font-weight: 550;
   }
   
 }
@@ -278,20 +279,22 @@ body.light-theme .navbar.navbar-dark.bg-dark {
   .navbar-text,
   .btn {
     color: #4a4a4a !important;
-    transition: color 0.5s ease;  // ✅ 添加平滑过渡效果
+    transition: color 0.3s ease;  // ✅ 添加平滑过渡效果
   }
 
   .nav-link:hover,
   .navbar-text:hover,
   .btn:hover {
+    font-weight: 500;
     color: #000000 !important;    // ✅ 悬停时变为纯黑
-    text-shadow: 0 0 0.6px rgba(0, 0, 0, 2);
+    text-shadow: 0 0 0.8px rgba(0, 0, 0, 2);
+    filter: brightness(150%);
   }
 
   .btn-outline-light {
     border-color: #4a4a4a !important;
     color: #4a4a4a !important;
-    transition: color 0.5s ease, background-color 0.5s ease; // ✅ 平滑过渡
+    transition: color 0.3s ease, background-color 0.3s ease; // ✅ 平滑过渡
   }
 
   .btn-outline-light:hover {

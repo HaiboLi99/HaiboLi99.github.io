@@ -12,6 +12,8 @@ img {
 .navbar {
   margin-bottom: 15px;
   border-bottom: 4px solid var(--secondary);
+  padding-top: 0.6rem;   
+  padding-bottom: 0.6rem;
 }
 
 .btn {
@@ -26,15 +28,15 @@ img {
 .container-footer {
   margin-right: auto;
   margin-left: auto;
-  max-width: 800px;
+  // max-width: 800px;
   padding-left:  20px;
   padding-right: 20px;
 }
 
 .well-collapse {
-  padding-left:  20px;
-  padding-right: 20px;
-  padding-top:   12px;
+  padding-left:  10px;
+  padding-right: 10px;
+  padding-top:   10px;
   padding-bottom: 4px;
   border-radius:  7px;
   min-height:     1px;

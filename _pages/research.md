@@ -162,8 +162,8 @@ Here are several related papers:
 Ab-initio molecular dynamcis simulations, using classical computational methods based on density functional theory (which involves a nonlinear eigenvalue problem as a core component), or machine learning approaches such as the "neural network force field" model.
 Here are several related papers:
 
+* [Liu, R., Guo, Z., Sha, Q., Zhao, T., Li, H., Hu, W., Liu, L., Tan, G., & Jia, W. (2025). Large Scale Finite-Temperature Real-time Time Dependent Density Functional Theory Calculation with Hybrid Functional on ARM and GPU Systems. 2025 IEEE International Parallel and Distributed Processing Symposium (IPDPS).](https://doi.org/10.1109/IPDPS64566.2025.00076)
 * [Li, H., Wu, X., Liu, L., Wang, L., Wang, L.-W., Tan, G., & Jia, W. (2024). ALKPU: An Active Learning Method for the DeePMD Model with Kalman Filtering. arXiv:2411.13850.](https://doi.org/10.48550/arXiv.2411.13850)
-* [Liu, R., Guo, Z., Sha, Q., Zhao, T., Li, H., Hu, W., Liu, L., Tan, G., & Jia, W. (2024). Large Scale Finite-Temperature Real-time Time Dependent Density Functional Theory Calculation with Hybrid Functional on ARM and GPU Systems. arXiv:2501.03061](https://doi.org/10.48550/arXiv.2501.03061)
 * [Yan, Y.-J., Li, H.-B., Zhao, T., Wang, L.-W., Shi, L., Liu, T., Tan, G.-M., Jia, W.-L., & Sun, N.-H. (2024). 10-Million Atoms Simulation of First-Principle Package LS3DF. Journal of Computer Science and Technology, 39(1), 45–62.](https://doi.org/10.1007/s11390-023-3011-6)
 
 
