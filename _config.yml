@@ -48,6 +48,8 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"  # 让 Jekyll识别.tex 文件并交给转换器
+
 # Markdown Processing
 kramdown:
   input: GFM

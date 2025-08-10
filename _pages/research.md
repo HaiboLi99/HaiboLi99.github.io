@@ -146,7 +146,7 @@ This project focuses on analyzing GSVD from new perspectives, which leads to new
 Here are several related papers:
 
 * [Li, H. (2025). A new interpretation of the weighted pseudoinverse and its applications. SIAM Journal on Matrix Analysis and Applications, 46(2), 934--956.](https://doi.org/10.1137/24M1686073)
-* [Li, H. (2025). Krylov iterative methods for linear least squares problems with linear equality constraints. arXiv:2501.01655.](https://doi.org/10.48550/arXiv.2501.01655)
+* [Li, H. (2025). Krylov iterative methods for linear least squares problems with linear equality constraints. Numerical Algorithms, 1-31](https://doi.org/10.1007/s11075-025-02192-9)
 * [Li, H. (2025). Characterizing GSVD by singular value expansion of linear operators and its computation. SIAM Journal on Matrix Analysis and Applications, 46(1), 439--465.](https://doi.org/10.1137/24M1651150)
 
 </div>

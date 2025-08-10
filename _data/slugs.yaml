@@ -2,17 +2,13 @@
 slugs:
   # mathenatics and sciences
   maths:
-    # - great-mathematicians-and-physicists
-    # - test
+    # - KRR_rate
+    - operator-bernstein
 
 
   # others
   others:
     - molecular-dynamics
+    - photos
 
-  # # photos
-  # photos:
-  #   - photos-Australia
-  #   - photos-Europe
-  #   - photos-US
 

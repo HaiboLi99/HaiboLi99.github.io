@@ -3,6 +3,8 @@ layout: post
 title: "An encounter with molecular dynamics"
 date: 2024-08-28
 categories: "Science Popularization"
+show_date: false  # 根据主题支持情况设置
+hide_title: false
 ---
 
 ##### This is a science popularization article I wrote at the invitation of [Melbourne Centre for Data Science](https://science.unimelb.edu.au/mcds){:target="_blank"} to introduce the AI methods for ab inito molecular dynamics.

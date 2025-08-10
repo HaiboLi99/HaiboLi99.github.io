@@ -20,16 +20,6 @@
   abstract = {Learning the governing equations from time-series data has gained increasing attention due to its potential to extract useful dynamics from real-world data. Despite significant progress, it becomes challenging in the presence of noise, especially when derivatives need to be calculated. To reduce the effect of noise, we propose a method that simultaneously fits both the derivative and trajectory from noisy time-series data. Our approach formulates derivative estimation as an inverse problem involving integral operators within the forward model, and estimates the derivative function by solving a regularization problem in a vector-valued reproducing kernel Hilbert space (vRKHS). We derive an integral-form representer theorem, which enables the computation of the regularized solution by solving a finite-dimensional problem and facilitates efficiently estimating the optimal regularization parameter. By embedding the dynamics within a vRKHS and utilizing the fitted derivative and trajectory, we can recover the underlying dynamics from noisy data by solving a linear regularization problem. Several numerical experiments are conducted to validate the effectiveness and efficiency of our method.}
 }
 
-@unpublished{li2025lse,
-  Title={Krylov iterative methods for linear least squares problems with linear equality constraints},
-  Author={Li, Haibo},
-  Note={arXiv:2501.01655},
-  doi = {2501.01655},
-  year={2025},
-  file = {2025-LSE.pdf},
-  abstract = {We consider the linear least squares problem with linear equality constraints (LSE problem) formulated as min ||Ax-b||_2 s.t Cx=d. Although there are some classical methods available to solve this problem, most of them rely on matrix factorizations or require the null space of C, which limits their applicability to large-scale problems. To address this challenge, we present a novel analysis of the LSE problem from the perspective of operator-type least squares (LS) problems, where the linear operators are induced by {A, C}. We show that the solution of the LSE problem can be decomposed into two components, each corresponding to the solution of an operator-form LS problem. Building on this decomposed-form solution, we propose two Krylov subspace based iterative methods to approximate each component, thereby providing an approximate solution of the LSE problem. Several numerical examples are constructed to test the proposed iterative algorithm for solving the LSE problems, which demonstrate the effectiveness of the algorithms.}
-}
-
 
 @unpublished{li2024scalable,
   Title={Scalable iterative data-adaptive RKHS regularization},
@@ -65,6 +55,19 @@
 
 
 % Refereed journal articles
+
+@article{li2025lse,
+  Title={Krylov iterative methods for linear least squares problems with linear equality constraints},
+  Author={Li, Haibo},
+  journal = {Numerical Algorithms},
+  volume={Online published},
+  number={xx},
+  pages={1-31},
+  doi = {10.1007/s11075-025-02192-9},
+  year={2025},
+  file = {2025-LSE.pdf},
+  abstract = {We consider the linear least squares problem with linear equality constraints (LSE problem) formulated as min ||Ax-b||_2 s.t Cx=d. Although there are some classical methods available to solve this problem, most of them rely on matrix factorizations or require the null space of C, which limits their applicability to large-scale problems. To address this challenge, we present a novel analysis of the LSE problem from the perspective of operator-type least squares (LS) problems, where the linear operators are induced by {A, C}. We show that the solution of the LSE problem can be decomposed into two components, each corresponding to the solution of an operator-form LS problem. Building on this decomposed-form solution, we propose two Krylov subspace based iterative methods to approximate each component, thereby providing an approximate solution of the LSE problem. Several numerical examples are constructed to test the proposed iterative algorithm for solving the LSE problems, which demonstrate the effectiveness of the algorithms.}
+}
 
 @article{li2023generalizing,
   Title={Generalizing the SVD of a matrix under non-standard inner product and its applications to linear ill-posed problems},

@@ -1,9 +1,12 @@
 
+- date: 9 Aug, 2025
+  headline: "My paper on 'Krylov methods for LSE problems' was published online on Numerical Algorithms. <a href='https://doi.org/10.1007/s11075-025-02192-9' target='_blank'>Check it out!<a>"
+
 - date: 4 July, 2025
   headline: "My paper on 'projected Newton method for inverse problems' was published on SIOPT. <a href='https://doi.org/10.1137/24M1645838' target='_blank'>Check it out!<a>"
 
 - date: 27 June, 2025
-  headline: "My paper on ''ill-posed problem computation' was published on AMC. <a href='https://doi.org/10.1016/j.amc.2025.129608' target='_blank'>Check it out!<a>"
+  headline: "My paper on 'ill-posed problem computation' was published on AMC. <a href='https://doi.org/10.1016/j.amc.2025.129608' target='_blank'>Check it out!<a>"
 
 - date: 4 April, 2025
   headline: "My paper on 'weighted pseudoinverse and its application' was published on SIMAX. <a href='https://doi.org/10.1137/24M1686073' target='_blank'>Check it out!<a>"
@@ -12,10 +15,10 @@
   headline: "My paper on 'GSVD analysis and computation' was published on SIMAX. <a href='https://doi.org/10.1137/24M1651150' target='_blank'>Check it out!<a>"
 
 - date: 1 December, 2024
-  headline: "My paper on 'Lanczos bidiagonalization with reorthogonalization' was published on JCAM. <a href='https://doi.org/10.1016/j.cam.2024.116414' target='_blank'>Check it out!<a>"
+  headline: "Our paper on 'Lanczos bidiagonalization with reorthogonalization' was published on JCAM. <a href='https://doi.org/10.1016/j.cam.2024.116414' target='_blank'>Check it out!<a>"
 
 - date: 17 November, 2024
-  headline: "I gave a talk about `data-adaptive RKHS regularization' in <a href='https://easipia.github.io/website/index8thyss.html?The_Eighth_Young_Scholar_Symposium' target='_blank'> the 8th Young Scholar Symposium of the East Asia Section of Inverse Problems International Association.<a> "
+  headline: "I gave a talk about 'data-adaptive RKHS regularization' in <a href='https://easipia.github.io/website/index8thyss.html?The_Eighth_Young_Scholar_Symposium' target='_blank'> the 8th Young Scholar Symposium of the East Asia Section of Inverse Problems International Association.<a> "
 
 - date: 5 November, 2024
   headline: "I gave a talk about `Bayesian inverse problem computation' in School of Mathematics at Hunan Univeristy. <a href='https://math.hnu.edu.cn/info/1045/6565.htm' target='_blank'>Here is the information.<a> "
