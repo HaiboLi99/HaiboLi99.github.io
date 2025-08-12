@@ -6,3 +6,10 @@ _site/
 Gemfile.lock
 package-lock.json
 node_modules/
+
+# 本地的 LaTeX 不上传
+posts_src/
+bin/
+_plugins/tex_to_posts.rb
+
+
