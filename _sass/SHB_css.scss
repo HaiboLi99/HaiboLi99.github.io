@@ -12,8 +12,8 @@ img {
 .navbar {
   margin-bottom: 15px;
   border-bottom: 4px solid var(--secondary);
-  padding-top: 0.6rem;   
-  padding-bottom: 0.6rem;
+  padding-top: 0.8rem;   
+  padding-bottom: 0.8rem;
 }
 
 .btn {
@@ -21,14 +21,10 @@ img {
     margin-bottom: 5px;
 }
 
-.container-fluid {
-  max-width: 800px;
-}
 
 .container-footer {
   margin-right: auto;
   margin-left: auto;
-  // max-width: 800px;
   padding-left:  20px;
   padding-right: 20px;
 }
@@ -89,4 +85,37 @@ img {
 
 .MathJax_ref {
   fill: #00bc8c!important;
+}
+
+// 移动端
+@media (max-width: 991.98px) {
+  .jumbotron,
+  .card,
+  .alert,
+  .list-group {
+    margin-left: 12px;
+    margin-right: 12px;
+    width: auto;
+  }
+}
+
+/* 手机 / 平板下折叠状态的下拉菜单更紧凑 */
+@media (max-width: 991.98px) {
+  .navbar {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+  }
+
+  .navbar-collapse .navbar-nav .nav-link {
+    font-size: 22px;      /* 字体变小 */
+    padding-top: 0.3rem;  /* 上下内边距更紧凑 */
+    padding-bottom: 0.3rem;
+    line-height: 1.2;     /* 缩小行高 */
+  }
+
+  /* 如果下拉菜单里面还有按钮或其它元素，也一起收紧 */
+  .navbar-collapse {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
 }

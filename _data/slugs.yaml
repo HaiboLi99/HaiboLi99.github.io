@@ -1,9 +1,10 @@
 
 slugs:
-  # mathenatics and sciences
+  # mathenatics 
   maths:
     # - KRR_rate
     - operator-bernstein
+
 
 
   # others

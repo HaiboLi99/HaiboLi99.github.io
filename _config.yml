@@ -47,8 +47,7 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"  # 让 Jekyll识别.tex 文件并交给转换器
+# markdown_ext: "markdown,mkdown,mkdn,mkd,md"  
 
 # Markdown Processing
 kramdown:
@@ -62,7 +61,19 @@ kramdown:
   enable_coderay: false
   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
 
-plugins: ["jekyll/scholar"]
+# plugins: ["jekyll/scholar"]
+plugins:
+  - jekyll-scholar
+
+# 允许运行本地自定义插件
+future: true
+safe: false
+plugins_dir: _plugins
+# 给“tex → posts”的插件一份最小配置
+tex_posts:
+  src_dir: posts_src         # 你放 .tex 的目录
+  out_dir: _posts            # 输出到 _posts
+  layout: post               # 生成文章用的 layout
 
 scholar:
   last_name: Li
@@ -90,6 +101,7 @@ scholar:
     reversed: "reversed"
 
 exclude:
+  - posts_src
   - Gemfile
   - Gemfile.lock
   - update_boostrap.sh

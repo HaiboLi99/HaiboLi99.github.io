@@ -6,7 +6,7 @@ permalink: /publications/
 years: [2016, 2017, 2018, 2019, 2020, 2021]
 ---
 
-<style>
+<!-- <style>
 .jumbotron{
     padding:3%;
     padding-bottom:1px;
@@ -14,21 +14,21 @@ years: [2016, 2017, 2018, 2019, 2020, 2021]
     margin-top:10px;
     margin-bottom:20px;
 }
-</style>
+</style> -->
 
 <div class="jumbotron">
-### Preprints
-{% bibliography --query @unpublished %}
+  <h3>Preprints</h3>
+  {% bibliography --query @unpublished %}
 </div>
 
 <div class="jumbotron">
-### Refereed journal articles
-{% bibliography --query @article %}
+  <h3>Refereed journal articles</h3>
+  {% bibliography --query @article %}
 </div>
 
 <div class="jumbotron">
-### Refereed conference proceedings
-{% bibliography --query @inproceedings %}
+  <h3>Refereed conference proceedings</h3>
+  {% bibliography --query @inproceedings %}
 </div>
 
 

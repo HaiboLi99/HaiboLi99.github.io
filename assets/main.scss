@@ -15,7 +15,10 @@ $baseurl: "{{ site.url }}{{ site.baseurl }}";
 // ============================
 
 .container-fluid {
-  padding: 5px 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: max(15px, env(safe-area-inset-left));
+  padding-right: max(15px, env(safe-area-inset-right));
   margin-right: auto;
   margin-left: auto;
   max-width: 1100px;
@@ -23,7 +26,7 @@ $baseurl: "{{ site.url }}{{ site.baseurl }}";
 }
 
 .navbar-nav .nav-link {
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 500;
   padding-bottom: 1px;
 }
@@ -75,6 +78,36 @@ body.light-theme .container-footer {
   border-top: 3px solid #ccc;
 }
 
+// 主页标志图片与名字同样高度
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.navbar-brand img {
+  margin-right: 10px; /* 保持文字和图片间距 */
+}
+
+/* 手机与平板，把 sidebar 这些行内宽度干掉并留出左右边距 */
+@media (max-width: 991.98px) {
+  /* 覆盖你写在行内的 width:66% / 105% */
+  .jumbotron[style*="width: 70%"],
+  .jumbotron[style*="width: 105%"] {
+    width: auto !important;
+    margin-left: 12px !important;
+    margin-right: 12px !important;
+  }
+
+  /* 让内部图片和列表在小屏更友好一些 */
+  .jumbotron img {
+    display: block;
+    max-width: 70%;
+    height: auto;
+  }
+  .jumbotron ul {
+    padding-left: 1.1em;
+    margin-left: 0;
+  }
+}
 
 // ============================
 // 明暗模式变量定义
@@ -220,6 +253,27 @@ body.light-theme a:hover font.resource-link {
 // ============================
 // 明/亮色主题下的 navbar 样式覆盖
 // ============================
+/* 亮/暗主题下的汉堡图标颜色（即使 nav 上还是 .navbar-dark 也能换色） */
+body.light-theme .navbar.navbar-dark .navbar-toggler-icon,
+body.light-theme .navbar.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+  background-size: 1.25rem 1.25rem;
+}
+body.dark-theme .navbar.navbar-dark .navbar-toggler-icon,
+body.dark-theme .navbar.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,0.85)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+  background-size: 1.25rem 1.25rem;
+}
+body.light-theme .navbar.navbar-light .navbar-toggler,
+body.light-theme nav.navbar .navbar-toggler {
+  border-color: rgba(0, 0, 0, 0.1) !important;
+}
+body.light-theme .navbar .navbar-toggler:focus,
+body.light-theme .navbar .navbar-toggler[aria-expanded="true"] {
+  border-color: rgba(0, 0, 0, 0.2) !important;
+  border-width: 4px;
+  outline: none;
+}
 
 body.dark-theme .navbar.navbar-dark.bg-dark {
   background-color: #333 !important;
@@ -283,7 +337,7 @@ body.light-theme .navbar.navbar-dark.bg-dark {
   .btn-outline-light {
     border-color: #4a4a4a !important;
     color: #4a4a4a !important;
-    transition: color 0.3s ease, background-color 0.3s ease; // ✅ 平滑过渡
+    transition: color 0.1s ease, background-color 0.3s ease; // ✅ 平滑过渡
   }
 
   .btn-outline-light:hover {
@@ -301,7 +355,7 @@ body.light-theme .navbar.navbar-dark.bg-dark {
 
 
 h3 {
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 500;
   // line-height: 1.3;
   color: inherit;  // 继承当前主题文字颜色
@@ -309,27 +363,3 @@ h3 {
 
 
 
-/* === Pandoc citeproc 的推荐样式，保证编号和正文同一行 === */
-.csl-bib-body { margin-top: 0.1em;}
-.csl-entry { margin-bottom: .5em; }
-.csl-left-margin { float: left; padding-right: .6em; }
-.csl-right-inline { display: inline; }
-.csl-indent { margin-left: 2em; }
-
-
-/* 让 theorem 环境显示标题 */
-.post, .post-content { counter-reset: theorem 0; }
-
-.theorem::before {
-  counter-increment: theorem;
-  content: "Theorem " counter(theorem) ". ";
-  font-weight: 600;
-  display: inline;  /* 改成 inline 就会和内容同一行 */
-  margin-right: .25em;
-}
-
-/* 让第一段和标签并排 */
-.theorem > p:first-child {
-  display: inline;      /* 把第一段改成行内显示 */
-  margin: 0;            /* 去掉段落外边距 */
-}

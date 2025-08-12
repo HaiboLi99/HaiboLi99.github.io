@@ -1,18 +1,21 @@
+<!-- MathJax: 支持 TeX + MathML 输入，CHTML 输出 -->
 <script>
-MathJax = {
-    tex: {
-    inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
-    displayMath: [['$$', '$$'], ['\\[', '\\]']],
-    tags: 'ams'  // should be 'ams', 'none', or 'all' }. This line makes the equation numbering and labeling work
-    }, 
-    svg: {
-    fontCache: 'global'
-    }
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$','$$'], ['\\[','\\]']],
+    tags: 'ams'   // 仅对 TeX 输入生效；LaTeXML 生成的 MathML 自带编号
+  },
+  chtml: {
+    scale: 1.0,
+    mtextInheritFont: true
+  },
+  options: {
+    renderActions: { addMenu: [] } // 可选：去掉右键菜单
+    // 如需只在正文区域处理，可启用下一行（按你的 DOM 类名调整）
+    // , processHtmlClass: 'post-content|math'
+  }
 };
 </script>
-<script
-    type="text/javascript" id="MathJax-script" async
-    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
-</script> 
-
-
+<script id="MathJax-script" defer
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>

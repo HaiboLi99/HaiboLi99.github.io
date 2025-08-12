@@ -9,10 +9,10 @@
           const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
           const theme = saved || (prefersLight ? 'light' : 'dark');
           document.documentElement.classList.add(theme + '-theme');
-          document.body?.classList?.add(theme + '-theme');
+          document.body.classList.add(theme + '-theme');
         } catch (e) {
           document.documentElement.classList.add('dark-theme');
-          document.body?.classList?.add('dark-theme');
+          document.body.classList.add('dark-theme');
         }
       })();
     </script>
@@ -39,20 +39,19 @@
       {% include footer.html %}
     </div>
 
-    <!-- ✅ 2. 主题切换按钮逻辑 -->
+    <!-- ✅ 2. 主题切换按钮逻辑（支持多个按钮） -->
     <script>
       function updateThemeIcon() {
-        const btn = document.getElementById('theme-toggle-btn');
-        if (!btn) return;
+        const btns = document.querySelectorAll('.theme-toggle-btn');
         const isDark = document.body.classList.contains('dark-theme');
-        btn.textContent = isDark ? '🌙' : '☀️';
+        btns.forEach(btn => btn.textContent = isDark ? '🌙' : '☀️');
       }
 
       function toggleTheme() {
         const body = document.body;
         const isDark = body.classList.contains('dark-theme');
-        body.classList.remove(isDark ? 'dark-theme' : 'light-theme');
-        body.classList.add(isDark ? 'light-theme' : 'dark-theme');
+        body.classList.toggle('dark-theme', !isDark);
+        body.classList.toggle('light-theme', isDark);
         localStorage.setItem('theme', isDark ? 'light' : 'dark');
         updateThemeIcon();
       }

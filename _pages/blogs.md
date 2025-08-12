@@ -6,7 +6,7 @@ permalink: /blogs/
 ---
 
 <div class="jumbotron">
-  <h3>Mathematics and Science</h3>
+  <h3>Mathematics</h3>
   <ul>
   {% assign target_slugs = site.data.slugs.slugs.maths %}
   {% for post in site.posts %}
