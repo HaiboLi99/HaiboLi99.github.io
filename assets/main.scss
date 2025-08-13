@@ -126,6 +126,7 @@ body.light-theme .container-footer {
 // ============================
 // 主题样式定义
 // ============================
+
 body.dark-theme {
   background-color: var(--bg-color-dark);
   color: var(--text-color-dark);
@@ -183,7 +184,7 @@ a:hover {
   border-radius: 10px;
   padding: 10px 10px 1px 10px;  // 上右下左，
   margin-bottom: 10px;           
-  // transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 body.dark-theme .jumbotron {
@@ -265,7 +266,7 @@ body.dark-theme .site-navbar {
   .navbar-text,
   .btn {
     color: #bbbbbb !important;
-    // transition: color 0.3s ease, font-weight 0.3s ease;
+    transition: color 0.3s ease, font-weight 0.3s ease;
   }
 
   .nav-link:hover,
@@ -279,7 +280,7 @@ body.dark-theme .site-navbar {
   .btn-outline-light {
     border-color: #bbbbbb !important;
     color: #bbbbbb !important;
-    // transition: color 0.3s ease, background-color 0.3s ease;
+    transition: color 0.3s ease, background-color 0.3s ease;
   }
 
   .btn-outline-light:hover {
@@ -301,7 +302,7 @@ body.light-theme .site-navbar {
   .navbar-text,
   .btn {
     color: #4a4a4a !important;
-    // transition: color 0.3s ease;  
+    transition: color 0.3s ease;  
   }
 
   .nav-link:hover,
@@ -315,7 +316,7 @@ body.light-theme .site-navbar {
   .btn-outline-light {
     border-color: #4a4a4a !important;
     color: #4a4a4a !important;
-    // transition: color 0.1s ease, background-color 0.3s ease; 
+    transition: color 0.1s ease, background-color 0.3s ease; 
   }
 
   .btn-outline-light:hover {
