@@ -1,7 +1,6 @@
 ---
 ---
 
-
 <style>
 .btn{
     margin-bottom:5px;
@@ -22,11 +21,15 @@ pre{
 }
 </style>
 
-
-<div class="text-justify">{{reference}}</div>
-
 <!-- You can use the below to make your name bold -->
-<!-- {{reference | replace_first: 'Bryngelson, S. H.', '<b>Bryngelson, S. H.</b>' | replace_first: 'Bryngelson, S.', '<b>Bryngelson, S.</b>' }}</div> -->
+<div class="text-justify">
+<!-- {{reference}} -->
+ {{ reference
+   | replace_first: 'Li, H.', '<b>Li, H.</b>'
+   | replace_first: 'Li, Haibo', '<b>Li, Haibo</b>'
+}}
+</div>
+
 
 {% assign bibtest = false %}
 {% if entry.file %}

@@ -4,7 +4,7 @@
   margin: 0 auto;
   padding: 0 1rem;                 /* 移动端左右留白 */
   font-family: "STIX Two Text", "Cambria", "Georgia", "Times New Roman", serif;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.2;
   text-align: justify;             /* 两端对齐 */
   text-align-last: left;
@@ -21,12 +21,32 @@
 } */
 
 /* 给各级标题编号后自动加一个点 */
-.post-content .ltx_tag_section::after,
-.post-content .ltx_tag_subsection::after,
-.post-content .ltx_tag_subsubsection::after {
-  content: ".";
-  margin-left: -0.20em; 
+.post-content .ltx_title_section .ltx_tag_section,
+.post-content .ltx_title_subsection .ltx_tag_subsection,
+.post-content .ltx_title_subsubsection .ltx_tag_subsubsection {
+  display: inline-block;
+  float: none;
+  vertical-align: baseline;
   margin-right: 0.3em;
+  white-space: nowrap;
+}
+.post-content .ltx_title_section .ltx_tag_section::after,
+.post-content .ltx_title_subsection .ltx_tag_subsection::after,
+.post-content .ltx_title_subsubsection .ltx_tag_subsubsection::after {
+  content: ".";
+  margin-left: -0.2em;   
+}
+@media (max-width: 768px) {
+  .post-content .ltx_title_section .ltx_tag_section,
+  .post-content .ltx_title_subsection .ltx_tag_subsection,
+  .post-content .ltx_title_subsubsection .ltx_tag_subsubsection {
+    margin-right: 0.2em;
+  }
+  .post-content .ltx_title_section .ltx_tag_section::after,
+  .post-content .ltx_title_subsection .ltx_tag_subsection::after,
+  .post-content .ltx_title_subsubsection .ltx_tag_subsubsection::after {
+    margin-left: -0.em;
+  }
 }
 
 /* 小节标题字号微调 */
