@@ -137,7 +137,3 @@
 :root { --nav-h: 56px; }  /* 例如 56~72px 之间自己试一下 */
 html { scroll-padding-top: var(--nav-h); }
 .post-content [id] { scroll-margin-top: var(--nav-h); }
-
-
-
-
