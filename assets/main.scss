@@ -27,8 +27,8 @@ $baseurl: "{{ site.url }}{{ site.baseurl }}";
 .navbar-nav .nav-link {
   font-size: 20px;
   font-weight: 500;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 // ============================
@@ -112,6 +112,10 @@ body.light-theme .container-footer {
 // ============================
 // 明暗模式变量定义
 // ============================
+/* 主题初始化时禁用过渡，防止闪烁 */
+html.no-transitions, html.no-transitions * {
+  transition: none !important;
+}
 
 :root {
   --bg-color-dark: #1e1e1e;

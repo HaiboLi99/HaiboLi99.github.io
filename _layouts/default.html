@@ -3,19 +3,23 @@
   <head>
     <!-- ✅ 1. 优先设置主题，防止闪烁 -->
     <script>
-      (function () {
-        try {
-          const saved = localStorage.getItem('theme');
-          const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
-          const theme = saved || (prefersLight ? 'light' : 'dark');
-          document.documentElement.classList.add(theme + '-theme');
-          document.body.classList.add(theme + '-theme');
-        } catch (e) {
-          document.documentElement.classList.add('dark-theme');
-          document.body.classList.add('dark-theme');
-        }
-      })();
-    </script>
+(function () {
+  var saved = localStorage.getItem('theme');
+  var systemDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  var theme = saved ? saved : (systemDark ? 'dark' : 'light');
+
+  // 1) 先在 <html> 上应用主题，并临时关闭过渡，避免闪烁
+  var html = document.documentElement;
+  html.classList.add('no-transitions');
+  html.classList.add(theme + '-theme');
+
+  // 2) DOM 就绪后，同步到 <body>，并恢复过渡
+  document.addEventListener('DOMContentLoaded', function () {
+    document.body.classList.add(theme + '-theme');
+    html.classList.remove('no-transitions');
+  });
+})();
+</script>
 
     {% include head.html %}
   </head>
@@ -41,22 +45,28 @@
 
     <!-- ✅ 2. 主题切换按钮逻辑（支持多个按钮） -->
     <script>
-      function updateThemeIcon() {
-        const btns = document.querySelectorAll('.theme-toggle-btn');
-        const isDark = document.body.classList.contains('dark-theme');
-        btns.forEach(btn => btn.textContent = isDark ? '🌙' : '☀️');
-      }
+  function updateThemeIcon() {
+    const btns = document.querySelectorAll('.theme-toggle-btn');
+    const isDark = document.body.classList.contains('dark-theme');
+    btns.forEach(btn => btn.textContent = isDark ? '🌙' : '☀️');
+  }
 
-      function toggleTheme() {
-        const body = document.body;
-        const isDark = body.classList.contains('dark-theme');
-        body.classList.toggle('dark-theme', !isDark);
-        body.classList.toggle('light-theme', isDark);
-        localStorage.setItem('theme', isDark ? 'light' : 'dark');
-        updateThemeIcon();
-      }
+  function toggleTheme() {
+    const isDark = document.body.classList.contains('dark-theme');
+    const toDark = !isDark;
 
-      document.addEventListener('DOMContentLoaded', updateThemeIcon);
-    </script>
+    // 同步切换 html 与 body
+    document.documentElement.classList.toggle('dark-theme', toDark);
+    document.documentElement.classList.toggle('light-theme', !toDark);
+    document.body.classList.toggle('dark-theme', toDark);
+    document.body.classList.toggle('light-theme', !toDark);
+
+    localStorage.setItem('theme', toDark ? 'dark' : 'light');
+    updateThemeIcon();
+  }
+
+  document.addEventListener('DOMContentLoaded', updateThemeIcon);
+</script>
+
   </body>
 </html>

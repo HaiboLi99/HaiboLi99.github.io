@@ -2,7 +2,6 @@
 slugs:
   # mathenatics 
   maths:
-    # - KRR_rate
     - operator-bernstein
 
 
