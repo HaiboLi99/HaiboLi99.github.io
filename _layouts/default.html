@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- ✅ 1. 优先设置主题，防止闪烁 -->
+    <!-- 优先设置主题，防止闪烁 -->
     <script>
       (function () {
         try {
@@ -21,12 +21,12 @@
   </head>
 
   <body>
-    <!-- ✅ Flexbox 根容器 -->
+    <!-- Flexbox 根容器 -->
     <div class="site-wrapper d-flex flex-column min-vh-100">
-      <!-- ✅ 页眉 -->
+      <!-- 页眉 -->
       {% include header.html %}
 
-      <!-- ✅ 主体内容 -->
+      <!-- 主体内容 -->
       <main class="content">
         <div class="container-fluid">
           <div class="row">
@@ -35,11 +35,11 @@
         </div>
       </main>
 
-      <!-- ✅ 页脚 -->
+      <!-- 页脚 -->
       {% include footer.html %}
     </div>
 
-    <!-- ✅ 2. 主题切换按钮逻辑（支持多个按钮） -->
+    <!-- 主题切换按钮逻辑（支持多个按钮） -->
     <script>
       function updateThemeIcon() {
         const btns = document.querySelectorAll('.theme-toggle-btn');
