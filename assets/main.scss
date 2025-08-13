@@ -26,8 +26,9 @@ $baseurl: "{{ site.url }}{{ site.baseurl }}";
 }
 
 .navbar-nav .nav-link {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 500;
+  padding-top: 5px;
   padding-bottom: 5px;
 }
 
@@ -246,7 +247,7 @@ body.light-theme a font.resource-link {
 }
 
 body.light-theme a:hover font.resource-link {
-  color: #288cae;  
+  color: #217e9e;  
   text-decoration: underline;
 }
 
@@ -304,8 +305,8 @@ body.dark-theme .navbar.navbar-dark.bg-dark {
     color: #ffffff !important;
     font-weight: 550;
   }
-  
 }
+
 
 
 body.light-theme .navbar.navbar-dark.bg-dark {
@@ -344,7 +345,8 @@ body.light-theme .navbar.navbar-dark.bg-dark {
     font-weight: 550;            // ✅ 稍微加粗
   }
 
-  border: 1px solid #ccc;
+  border: none;
+  border-bottom: 3px solid #ccc; /* 灰色加粗底边 */
 }
 
 
