@@ -246,23 +246,20 @@ body.light-theme a:hover font.resource-link {
 // ============================
 // 明/亮色主题下的 navbar 样式覆盖
 // ============================
-body.light-theme .navbar.navbar-dark .navbar-toggler-icon,
-body.light-theme .navbar.navbar-light .navbar-toggler-icon {
+body.light-theme .site-navbar .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
   background-size: 1.5rem 1.5rem;
 }
-body.dark-theme .navbar.navbar-dark .navbar-toggler-icon,
-body.dark-theme .navbar.navbar-light .navbar-toggler-icon {
+body.dark-theme .site-navbar .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
   background-size: 1.5rem 1.5rem;
 }
-body.dark-theme .navbar .navbar-toggler,
-body.light-theme .navbar.navbar-light .navbar-toggler,
-body.light-theme nav.navbar .navbar-toggler {
-  border: none !important; 
+body.dark-theme .site-navbar .navbar-toggler,
+body.light-theme .site-navbar .navbar-toggler {
+  border: none !important;
 }
 
-body.dark-theme .navbar.navbar-dark.bg-dark {
+body.dark-theme .site-navbar {
   background-color: #333 !important;
   color: #f0f0f0 !important;
   .nav-link,
@@ -297,7 +294,7 @@ body.dark-theme .navbar.navbar-dark.bg-dark {
   }
 }
 
-body.light-theme .navbar.navbar-dark.bg-dark {
+body.light-theme .site-navbar {
   background-color: #f9f9f9 !important;
   color: #4a4a4a !important;
 
