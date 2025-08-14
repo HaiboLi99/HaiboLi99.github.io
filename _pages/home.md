@@ -16,8 +16,8 @@ I am currently a Research Fellow in <a href='https://ms.unimelb.edu.au/' target=
 ### Research
 
 My research centers around utilizing mathematical modeling and computational techniques to address challenging problems in scientific computing and data science. The research topics mainly include:
-* Inverse problems, regularization
-* Numerical linear algebra, matrix analysis and computation
+* Inverse problems, Regularization
+* Numerical linear algebra, Matrix analysis and computation
 * Scientific machine learning
 
 I am always interested in collaborating with researchers in mathematics, statistics, artificial intelligence, and related fields. For any discussions, please feel free to reach out to me.
