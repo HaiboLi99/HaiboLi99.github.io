@@ -54,6 +54,18 @@
         body.classList.toggle('light-theme', isDark);
         localStorage.setItem('theme', isDark ? 'light' : 'dark');
         updateThemeIcon();
+
+        // for adding comments ===
+        const iframe = document.querySelector('iframe.giscus-frame');
+        const newTheme = isDark ? 'light_tritanopia' : 'dark';
+        if (iframe) {
+          iframe.contentWindow.postMessage(
+            { giscus: { setConfig: { theme: newTheme } } },
+            'https://giscus.app'
+          );
+        } else {
+          insertGiscus(newTheme);
+        }
       }
 
       document.addEventListener('DOMContentLoaded', updateThemeIcon);
