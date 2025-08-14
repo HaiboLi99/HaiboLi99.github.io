@@ -3,7 +3,7 @@ layout: post
 title: "An encounter with molecular dynamics"
 date: 2024-08-28
 categories: "Science Popularization"
-show_date: false  # 根据主题支持情况设置
+show_date: false  
 hide_title: false
 ---
 

@@ -5,10 +5,8 @@
     <span style="font-size: 24px;">{{ site.title | escape }}</span>
   </a>
 
-  <!-- ✅ 手机端按钮（在汉堡按钮左侧） -->
   <button class="theme-toggle-btn d-md-none ml-auto mr-2" onclick="toggleTheme()">🌙</button>
 
-  <!-- 汉堡按钮 -->
   <button class="toggler navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
     data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false"
     aria-label="Toggle navigation">
@@ -16,7 +14,6 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarColor02">
-    <!-- 左侧导航 -->
     <div class="navbar-nav mr-auto">
       <a class="nav-item nav-link" href="{{ site.url }}{{ site.baseurl }}/">Home</a>
       {% for page in site.nav_pages %}
@@ -24,7 +21,6 @@
       {% endfor %}
     </div>
 
-    <!-- ✅ 桌面端按钮（右侧） -->
     <div class="navbar-nav ml-auto d-none d-md-flex">
       <button class="theme-toggle-btn" onclick="toggleTheme()">🌙</button>
     </div>

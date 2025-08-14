@@ -1,14 +1,13 @@
-/* 仅作用于 LaTeXML 文章：.ltx_document 存在 */
+/* for LaTeXML posts：.ltx_document */
 .post-content .ltx_document {
-  /* 桌面端列宽 */
   margin: 0 auto;
-  padding: 0 1rem;                 /* 移动端左右留白 */
+  padding: 0 1rem;                 
   font-family: "STIX Two Text", "Cambria", "Georgia", "Times New Roman", serif;
   font-size: 18px;
   line-height: 1.2;
-  text-align: justify;             /* 两端对齐 */
+  text-align: justify;             
   text-align-last: left;
-  color: inherit;                   /* 兼容你的明/暗主题 */
+  color: inherit;                  
 }
 
 /* 标题层级（LaTeXML 会输出自身类名，也保留原生 h2 等） */
@@ -67,18 +66,18 @@
 .post-content .ltx_document .ltx_title_section,
 .post-content .ltx_document .ltx_title_subsection,
 .post-content .ltx_document .ltx_title_subsubsection {
-  margin-top: 0.0em;     /* 和上一内容的距离 */
-  margin-bottom: 0.0em;  /* 和正文的距离 */
+  margin-top: 0.0em;     
+  margin-bottom: 0.0em;  
 }
 
-/* 段落与列表 */
+/* para and list */
 .post-content p { margin: .5em 0; }
 .post-content ul, .post-content ol { margin: .6em 0 .8em 1.4em; }
 
-/* 链接低调一点，hover 再强调（去掉虚线） */
+/* hover  */
 .post-content .ltx_document a { 
   text-decoration: none !important; 
-  border-bottom: none !important;  /* 强制覆盖虚线 */
+  border-bottom: none !important;  
 }
 
 .post-content .ltx_document a:hover { 
@@ -86,7 +85,6 @@
 }
 
 
-/* 移动端：长公式横向滚动（不强制换行） */
 @media (max-width: 768px) {
   .post-content .ltx_eqn_table {
     display: block;
@@ -99,21 +97,18 @@
 }
 
 
-/* ===== 定理类环境标题末尾加点（LaTeXML 输出） ===== */
+/* ===== Theorem env ===== */
 .post-content 
-  /* 核心定理类 */
   .ltx_title_theorem::after,
   .ltx_title_lemma::after,
   .ltx_title_corollary::after,
   .ltx_title_proposition::after,
-  /* 定义、假设、推论 */
   .ltx_title_definition::after,
   .ltx_title_assumption::after,
-  /* 例子、注释、记号 */
   .ltx_title_example::after,
   .ltx_title_remark::after {
     content: ".";
-    margin-left: 0.1em; /* 与前面文字略微间隔 */
+    margin-left: 0.1em; 
 }
 
 .post-content .ltx_theorem,
@@ -124,16 +119,16 @@
 .post-content .ltx_assumption,
 .post-content .ltx_example,
 .post-content .ltx_remark {
-  margin-top: 0.8em;   /* 定理上方空白 */
-  margin-bottom: 0.8em; /* 定理下方空白 */
+  margin-top: 0.8em;   
+  margin-bottom: 0.8em; 
 }
 
-/* ====== 参考文献（若用 LaTeXML 生成的 bib）====== */
+/* ======  LaTeXML bib）====== */
 .post-content .ltx_bibliography { margin-top: 2em; }
 .post-content .ltx_title_bibliography {margin-bottom: 0.5em; }
 .post-content .ltx_bibitem { margin: .3em 0; } 
 
-/* 浏览器都自动把被引用目标停在导航栏下方 */
-:root { --nav-h: 56px; }  /* 例如 56~72px 之间自己试一下 */
+/* position for cross ref */
+:root { --nav-h: 56px; }  /* 56~72px  */
 html { scroll-padding-top: var(--nav-h); }
 .post-content [id] { scroll-margin-top: var(--nav-h); }

@@ -1,18 +1,17 @@
-<!-- MathJax: 支持 TeX + MathML 输入，CHTML 输出 -->
+<!-- MathJax-->
 <script>
 window.MathJax = {
   tex: {
     inlineMath: [['$', '$'], ['\\(', '\\)']],
     displayMath: [['$$','$$'], ['\\[','\\]']],
-    tags: 'ams'   // 仅对 TeX 输入生效；LaTeXML 生成的 MathML 自带编号
+    tags: 'ams'  
   },
   chtml: {
     scale: 1.0,
     mtextInheritFont: true
   },
   options: {
-    renderActions: { addMenu: [] } // 可选：去掉右键菜单
-    // 如需只在正文区域处理，可启用下一行（按你的 DOM 类名调整）
+    renderActions: { addMenu: [] } 
     // , processHtmlClass: 'post-content|math'
   }
 };

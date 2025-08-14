@@ -20,7 +20,7 @@ My research centers around utilizing mathematical modeling and computational tec
 * Numerical linear algebra, matrix analysis and computation
 * Scientific machine learning
 
-I am always interested in collaborating with researchers in mathematics, statistics, artificial intelligence, and related fields. For any discussions, please feel free to reach out to me by <a href="mailto:haibolee1729@gmail.com" target="_blank" style="text-decoration: underline;">haibolee1729@gmail.com</a> or <a href="mailto:haibo.li@unimelb.edu.au" target="_blank" style="text-decoration: underline;">haibo.li@unimelb.edu.au.</a>
+I am always interested in collaborating with researchers in mathematics, statistics, artificial intelligence, and related fields. For any discussions, please feel free to reach out to me.
 <br/>
 
 
