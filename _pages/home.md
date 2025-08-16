@@ -6,7 +6,7 @@ permalink: /
 ---
 
 
-<div style="margin-top:10px;"></div>
+<div style="margin-top:10px; text-align:left;">
 
 ### Welcome!
 
@@ -36,6 +36,8 @@ I am always interested in collaborating with researchers in mathematics, statist
 * <a href='https://ymsc.tsinghua.edu.cn/en/index.htm' target='_blank'><font class="resource-link">Yau Mathematical Sciences Center, Tsinghua University</font></a>
 * <a href='https://terrytao.wordpress.com/' target='_blank'><font class="resource-link">What's new--Terence Tao's Blog</font></a>
 * <a href='http://bactra.org/notebooks/' target='_blank'><font class="resource-link">Cosma Shalizi's Notebooks</font></a>
+
+</div>
 
 
 

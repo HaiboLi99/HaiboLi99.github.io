@@ -2,8 +2,11 @@
 .post-content .ltx_document {
   margin: 0 auto;
   padding: 0 1rem;                 
-  font-family: "STIX Two Text", "Cambria", "Georgia", "Times New Roman", serif;
-  font-size: 18px;
+  font-family:
+  "STIX Two Text", "Libertinus Serif",
+  "Noto Serif SC", "Songti SC", "Source Han Serif SC",
+  "Cambria", "Times New Roman", serif;
+  font-size: 20px;
   line-height: 1.2;
   text-align: justify;             
   text-align-last: left;
@@ -18,43 +21,6 @@
   line-height: 1.25;
   margin: 1.25em 0 .6em;
 } */
-
-/* 给各级标题编号后自动加一个点 */
-.post-content .ltx_title_section .ltx_tag_section,
-.post-content .ltx_title_subsection .ltx_tag_subsection,
-.post-content .ltx_title_subsubsection .ltx_tag_subsubsection {
-  display: inline-block;
-  float: none;
-  vertical-align: baseline;
-  margin-right: 0.3em;
-  white-space: nowrap;
-}
-.post-content .ltx_title_section .ltx_tag_section::after,
-.post-content .ltx_title_subsection .ltx_tag_subsection::after,
-.post-content .ltx_title_subsubsection .ltx_tag_subsubsection::after {
-  content: ".";
-  margin-left: -0.2em;   
-}
-@media (max-width: 768px) {
-  .post-content .ltx_title_section .ltx_tag_section,
-  .post-content .ltx_title_subsection .ltx_tag_subsection,
-  .post-content .ltx_title_subsubsection .ltx_tag_subsubsection {
-    margin-right: 0.2em;
-  }
-  .post-content .ltx_title_section .ltx_tag_section::after,
-  .post-content .ltx_title_subsection .ltx_tag_subsection::after,
-  .post-content .ltx_title_subsubsection .ltx_tag_subsubsection::after {
-    margin-left: -0.em;
-  }
-}
-
-/* 小节标题字号微调 */
-/* .post-content .ltx_document h1,
-.post-content .ltx_document .ltx_title_document { font-size: 1.8em; }
-.post-content .ltx_document h2,
-.post-content .ltx_document .ltx_title_section { font-size: 1.45em; }
-.post-content .ltx_document h3,
-.post-content .ltx_document .ltx_title_subsection { font-size: 1.2em; } */
 
 /* 缩小标题与正文的间距 */
 .post-content .ltx_document h1,
@@ -74,16 +40,6 @@
 .post-content p { margin: .5em 0; }
 .post-content ul, .post-content ol { margin: .6em 0 .8em 1.4em; }
 
-/* hover  */
-.post-content .ltx_document a { 
-  text-decoration: none !important; 
-  border-bottom: none !important;  
-}
-
-.post-content .ltx_document a:hover { 
-  text-decoration: underline !important; 
-}
-
 
 @media (max-width: 768px) {
   .post-content .ltx_eqn_table {
@@ -96,21 +52,7 @@
   }
 }
 
-
 /* ===== Theorem env ===== */
-.post-content 
-  .ltx_title_theorem::after,
-  .ltx_title_lemma::after,
-  .ltx_title_corollary::after,
-  .ltx_title_proposition::after,
-  .ltx_title_definition::after,
-  .ltx_title_assumption::after,
-  .ltx_title_example::after,
-  .ltx_title_remark::after {
-    content: ".";
-    margin-left: 0.1em; 
-}
-
 .post-content .ltx_theorem,
 .post-content .ltx_lemma,
 .post-content .ltx_corollary,
@@ -125,8 +67,24 @@
 
 /* ======  LaTeXML bib）====== */
 .post-content .ltx_bibliography { margin-top: 2em; }
-.post-content .ltx_title_bibliography {margin-bottom: 0.5em; }
-.post-content .ltx_bibitem { margin: .3em 0; } 
+.post-content .ltx_title_bibliography {margin-bottom: 0.4em; }
+.post-content .ltx_bibitem { margin: .2em 0; } 
+.ltx_bibliography [class*="ltx_bib_cited"] {
+  display: none !important;
+}
+.ltx_bibliography .ltx_bibitem .ltx_bibblock:has(.ltx_bib_links a) {
+  font-size: 0 !important;   
+}
+.ltx_bibliography .ltx_bibitem .ltx_bibblock:has(.ltx_bib_links a) .ltx_bib_links a {
+  font-size: 0 !important;   
+}
+.ltx_bibliography .ltx_bibitem .ltx_bibblock:has(.ltx_bib_links a) .ltx_bib_links a[href^="http"]::after {
+  content: attr(href);
+  font-size: 1.2rem;
+  word-break: break-all;
+  color: inherit;
+}
+
 
 /* position for cross ref */
 :root { --nav-h: 56px; }  /* 56~72px  */

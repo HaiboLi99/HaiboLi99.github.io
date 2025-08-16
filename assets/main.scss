@@ -31,6 +31,7 @@ $baseurl: "{{ site.url }}{{ site.baseurl }}";
   padding-bottom: 15px;
 }
 
+
 // ============================
 // 页脚容器
 // ============================
@@ -201,20 +202,20 @@ body.light-theme .jumbotron {
 // ============================
 // 明暗主题链接颜色设置（绿色）
 // ============================
-body.dark-theme a {
-  color: #0ddcb3;  
+body.dark-theme a { 
+  color: #00bfa5;   
 }
 
 body.dark-theme a:hover {
-  color: #4be6c7;  
+  color: #1bc89d; 
 }
 
 body.light-theme a {
-  color: #364eda;  
+  color: #0000EE;  
 }
 
 body.light-theme a:hover {
-  color: #243a99;  
+  color: #0727b1;  
 }
 
 // setting for links
@@ -238,7 +239,7 @@ body.light-theme a font.resource-link {
   color: #1ba6ddf9;  
 }
 body.light-theme a:hover font.resource-link {
-  color: #2384a5;  
+  color: #258bad;  
   text-decoration: underline;
 }
 
@@ -333,9 +334,9 @@ body.light-theme .site-navbar {
 }
 
 h3 {
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 500;
-  // line-height: 1.3;
+  line-height: 1.2;
   color: inherit;  
 }
 

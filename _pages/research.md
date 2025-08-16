@@ -5,32 +5,6 @@ sitemap: false
 permalink: /research/
 ---
 
-<!-- <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script> -->
-
-<style>
-img{
-  border-radius: 10px;
-}
-.col-md-3 {
-  margin-top:10px;
-  margin-bottom:10px;
-  padding:0px;
-  display:block;
-  overflow:hidden;
-  text-align:center;
-  display: table-cell;
-  background: white;
-  border-radius: 20px;
-  height: auto;
-}
-iframe {
-  margin:0;
-  padding:0;
-  width: 175px;
-  display: inline;
-  vertical-align: middle;
-}
-</style>
 
 <!-- ### Research -->
 
@@ -38,14 +12,10 @@ iframe {
 <div class="jumbotron">
 <h3>Regularization for inverse problems</h3>
 Given a forward map $$G:X\rightarrow Y$$ between two separable Hilbert spaces $X$ and $Y$, the corresponding inverse problem can usually be written as 
-$
-  y = G(u) + \delta
-$
-where $\delta\in Y$ is an error in the deterministic case, or 
-$
-	y = G(u)+\eta
-$
-where $\eta$ is a $Y$-valued random variable in the stochastic case.
+$y = G(u) + \delta$
+where $\delta\in Y$ is a measurement error in the deterministic case, or 
+$y = G(u)+\eta$
+where $\eta$ is a $Y$-valued random noise in the stochastic case.
 Such problems arise frequently in image processing, computed tomography, geophysics, data assimilation, etc. Most inverse problems are ill-posed, posing big challenges for analysis and computation.
 
 This project mainly focuses on the regularization and its iterative computation for ill-posed inverse problems. We aim to develop efficient iterative regularization methods for different types of regularizers.
