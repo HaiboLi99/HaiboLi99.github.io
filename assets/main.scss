@@ -10,6 +10,7 @@ $baseurl: "{{ site.url }}{{ site.baseurl }}";
 @import "bootstrap";
 @import "SHB_css";
 
+
 // ============================
 // 基础容器设置
 // ============================
@@ -27,8 +28,8 @@ $baseurl: "{{ site.url }}{{ site.baseurl }}";
 .navbar-nav .nav-link {
   font-size: 20px;
   font-weight: 500;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 
@@ -36,7 +37,7 @@ $baseurl: "{{ site.url }}{{ site.baseurl }}";
 // 页脚容器
 // ============================
 .container-footer {
-  border-top: 3px solid #444;
+  border-top: 2px solid #444;
   margin-top: 3px;
   margin-right: auto;
   margin-left: auto;
@@ -75,7 +76,7 @@ $baseurl: "{{ site.url }}{{ site.baseurl }}";
 body.light-theme .container-footer {
   background-color: #f9f9f9;
   color: #4a4a4a;
-  border-top: 3px solid #ccc;
+  border-top: 2px solid #ccc;
 }
 
 // 主页标志图片与名字同样高度
@@ -87,7 +88,7 @@ body.light-theme .container-footer {
   margin-right: 10px; /* 保持文字和图片间距 */
 }
 
-/* news 105% width */
+/* news 110% width */
 .home-news{
   width: 110%;
   max-width: calc(100% - 24px); /* ⇦ 100% 减去左右 12px 的余白 */
@@ -113,7 +114,6 @@ body.light-theme .container-footer {
 // ============================
 // 明暗模式变量定义
 // ============================
-
 :root {
   --bg-color-dark: #1e1e1e;
   --text-color-dark: #ffffff;
@@ -243,7 +243,6 @@ body.light-theme a:hover font.resource-link {
   text-decoration: underline;
 }
 
-
 // ============================
 // 明/亮色主题下的 navbar 样式覆盖
 // ============================
@@ -298,7 +297,6 @@ body.dark-theme .site-navbar {
 body.light-theme .site-navbar {
   background-color: #f9f9f9 !important;
   color: #4a4a4a !important;
-
   .nav-link,
   .navbar-text,
   .btn {
@@ -330,7 +328,7 @@ body.light-theme .site-navbar {
     font-weight: 600;            
   }
   border: none;
-  border-bottom: 3px solid #ccc; 
+  border-bottom: 2px solid #ccc; 
 }
 
 h3 {
