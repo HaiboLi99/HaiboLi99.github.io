@@ -26,10 +26,10 @@ $baseurl: "{{ site.url }}{{ site.baseurl }}";
 }
 
 .navbar-nav .nav-link {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 
@@ -91,8 +91,8 @@ body.light-theme .container-footer {
 /* news 110% width */
 .home-news{
   width: 110%;
-  max-width: calc(100% - 24px); /* ⇦ 100% 减去左右 12px 的余白 */
-  margin-left: auto;
+  max-width: calc(100% - 24px); 
+  margin-left: -6%;
   margin-right: auto;
   box-sizing: border-box;
 }
@@ -203,11 +203,11 @@ body.light-theme .jumbotron {
 // 明暗主题链接颜色设置（绿色）
 // ============================
 body.dark-theme a { 
-  color: #0ab584ed;   
+  color: #00bc8c;   
 }
 
 body.dark-theme a:hover {
-  color: #1bc89d; 
+  color: #1ccca0; 
 }
 
 body.light-theme a {
@@ -215,7 +215,7 @@ body.light-theme a {
 }
 
 body.light-theme a:hover {
-  color: #1837c4;  
+  color: #1836b8;  
 }
 
 // setting for links

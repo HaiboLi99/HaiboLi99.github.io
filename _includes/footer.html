@@ -1,4 +1,5 @@
 <br/>
+
 <section id="footer">
 <div class="container-footer" style="padding-bottom:10px;">
   <div class="panel-footer" style="font-size: 14.0px;">
@@ -19,10 +20,10 @@
 		</div>
 	  </div>
 
-      <div style="text-align:center;">
-		<p class="footer-date" style="display:inline;">&copy; {{ "now" | date: "%Y" }} {{ site.title | escape }} </p>
+      <div style="text-align:center; margin-top: -10px;">
+		<p class="footer-date" style="display:inline;">&copy; {{"now" | date: "%Y"}} {{site.title | escape}} </p>
 		<!-- hitwebcounter Code START -->
-		<img src="https://hitwebcounter.com/counter/counter.php?page=17064963&style=0006&nbdigits=5&type=ip&initCount=0" title="Counter Widget" alt="Visit counter For Websites" border="0" style="display:inline; margin-left: 100px;" />
+		<img src="https://hitwebcounter.com/counter/counter.php?page=17064963&style=0006&nbdigits=5&type=ip&initCount=0" title="Counter Widget" alt="Visit counter For Websites" border="0" style="display:inline; margin-left: 100px; width:70px; height:auto;" />
 		<!-- hitwebcounter Code END -->
 	</div>
 	</div>
@@ -30,7 +31,7 @@
 </div>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="{{ "/assets/javascript/bootstrap/bootstrap.bundle.min.js" | relative_url }}"></script>
+<script src="{{"/assets/javascript/bootstrap/bootstrap.bundle.min.js" | relative_url}}"></script>
 
 <script>
   const currentTheme = localStorage.getItem('theme') || 'dark';
@@ -43,3 +44,12 @@
     localStorage.setItem('theme', isDark ? 'light' : 'dark');
   }
 </script>
+
+<!-- set for font size for the subtitle -->
+<style>
+  #footer h5 {
+    font-size: 1.1rem;   
+    font-weight: 500;    
+    /* margin-bottom: .5rem; */
+  }
+</style>

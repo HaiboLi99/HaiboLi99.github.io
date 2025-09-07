@@ -16,7 +16,7 @@ hide_title: false
 <br/> 
 
 <!-- comments -->
-<script>
+<!-- <script>
   function insertGiscus(theme) {
     if (!document.getElementById('giscus') || document.querySelector('iframe.giscus-frame')) return;
     var s = document.createElement('script');
@@ -39,4 +39,4 @@ hide_title: false
     var theme = (localStorage.getItem('theme') === 'dark') ? 'dark' : 'light_tritanopia';
     insertGiscus(theme);
   });
-</script>
+</script> -->

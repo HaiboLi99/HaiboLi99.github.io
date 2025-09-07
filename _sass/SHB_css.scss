@@ -10,7 +10,7 @@ img {
 }
 
 .navbar {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   border-bottom: 2px solid var(--secondary);
   padding-top: 0.3rem;   
   padding-bottom: 0.3rem;
@@ -102,7 +102,7 @@ img {
     padding-bottom: 0.1rem;
   }
   .navbar-collapse .navbar-nav .nav-link {
-    font-size:18px;      /* 字体变小 */
+    font-size:15px;      /* 字体变小 */
     padding-top: 0.2rem;  /* 上下内边距更紧凑 */
     padding-bottom: 0.2rem;
     line-height: 1.5;     /* 缩小行高 */
