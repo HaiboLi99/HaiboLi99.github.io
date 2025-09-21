@@ -1,0 +1,5 @@
+current directory: /home/lee/Documents/Research/Machealb.github.io/vendor/bundle/ruby/3.3.0/gems/sass-embedded-1.79.4/ext/sass
+/usr/bin/ruby3.3 -I/usr/lib/ruby/vendor_ruby -rrubygems /home/lee/Documents/Research/Machealb.github.io/vendor/bundle/ruby/3.3.0/gems/rake-13.2.1/exe/rake RUBYARCHDIR\=/home/lee/Documents/Research/Machealb.github.io/vendor/bundle/ruby/3.3.0/extensions/x86_64-linux-gnu/3.3.0/sass-embedded-1.79.4 RUBYLIBDIR\=/home/lee/Documents/Research/Machealb.github.io/vendor/bundle/ruby/3.3.0/extensions/x86_64-linux-gnu/3.3.0/sass-embedded-1.79.4
+gem install --force --install-dir /home/lee/Documents/Research/Machealb.github.io/vendor/bundle/ruby/3.3.0/gems/sass-embedded-1.79.4/ext/sass/ruby --no-document --ignore-dependencies --platform x86_64-linux-gnu --version 1.79.4 sass-embedded
+mv /home/lee/Documents/Research/Machealb.github.io/vendor/bundle/ruby/3.3.0/gems/sass-embedded-1.79.4/ext/sass/ruby/gems/sass-embedded-1.79.4-x86_64-linux-gnu/ext/sass/dart-sass dart-sass
+rm -rf /home/lee/Documents/Research/Machealb.github.io/vendor/bundle/ruby/3.3.0/gems/sass-embedded-1.79.4/ext/sass/ruby

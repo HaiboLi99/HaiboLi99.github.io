@@ -1,0 +1,19 @@
+current directory: /home/lee/Documents/Research/Machealb.github.io/vendor/bundle/ruby/3.3.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+/usr/bin/ruby3.3 -I/usr/lib/ruby/vendor_ruby extconf.rb
+creating Makefile
+
+current directory: /home/lee/Documents/Research/Machealb.github.io/vendor/bundle/ruby/3.3.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20250921-23003-8m6swi sitelibdir\=./.gem.20250921-23003-8m6swi clean
+
+current directory: /home/lee/Documents/Research/Machealb.github.io/vendor/bundle/ruby/3.3.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20250921-23003-8m6swi sitelibdir\=./.gem.20250921-23003-8m6swi
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.so
+
+current directory: /home/lee/Documents/Research/Machealb.github.io/vendor/bundle/ruby/3.3.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20250921-23003-8m6swi sitelibdir\=./.gem.20250921-23003-8m6swi install
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20250921-23003-8m6swi
+
+current directory: /home/lee/Documents/Research/Machealb.github.io/vendor/bundle/ruby/3.3.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20250921-23003-8m6swi sitelibdir\=./.gem.20250921-23003-8m6swi clean

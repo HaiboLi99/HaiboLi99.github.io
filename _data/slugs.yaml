@@ -3,6 +3,7 @@ slugs:
   # mathematics 
   maths:
     - operator-bernstein
+    - Matern-kernel
 
 
 
