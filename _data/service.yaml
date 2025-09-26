@@ -7,6 +7,7 @@ name:
     - name1: BIT Numerical Mathematics
     - name1: Numerical Algorithms
     - name1: ZAMM - Journal of Applied Mathematics and Mechanics 
+    - name1: ZAMM - Journal of Computational and Applied Mathematics
 
   # Reviewer of conferences
   conferences:
