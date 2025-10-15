@@ -1,4 +1,7 @@
 
+- date: 15 Oct, 2025
+  headline: "I gave a talk about 'Data-adaptive RKHS regularization for learning convolution kernels' at the <a href='https://comp-neuro.github.io/index.html' target='_blank'> Computational Neuroscience Lab<a> at Monash University."
+
 - date: 25 Sept, 2025
   headline: "I gave a talk about 'Projected Newton method for Bayesian inverse problems' in the <a href='https://events.unimelb.edu.au/mathematics-and-statistics-seminars/event/49735-projected-newton-method-for-large-scale-bayesian' target='_blank'>Applied Mathematics Seminar<a> at University of Melbourne."
 
@@ -6,10 +9,10 @@
   headline: "My paper on 'Krylov methods for LSE problems' was published online on Numerical Algorithms. <a href='https://doi.org/10.1007/s11075-025-02192-9' target='_blank'>Check it out!<a>"
 
 - date: 4 July, 2025
-  headline: "My paper on 'projected Newton method for inverse problems' was published on SIOPT. <a href='https://doi.org/10.1137/24M1645838' target='_blank'>Check it out!<a>"
+  headline: "My paper on 'Projected Newton method for inverse problems' was published on SIOPT. <a href='https://doi.org/10.1137/24M1645838' target='_blank'>Check it out!<a>"
 
 - date: 27 June, 2025
-  headline: "My paper on 'ill-posed problem computation' was published on AMC. <a href='https://doi.org/10.1016/j.amc.2025.129608' target='_blank'>Check it out!<a>"
+  headline: "My paper on 'Ill-posed problem computation' was published on AMC. <a href='https://doi.org/10.1016/j.amc.2025.129608' target='_blank'>Check it out!<a>"
 
 - date: 4 April, 2025
   headline: "My paper on 'weighted pseudoinverse and its application' was published on SIMAX. <a href='https://doi.org/10.1137/24M1686073' target='_blank'>Check it out!<a>"
@@ -21,13 +24,13 @@
   headline: "Our paper on 'Lanczos bidiagonalization with reorthogonalization' was published on JCAM. <a href='https://doi.org/10.1016/j.cam.2024.116414' target='_blank'>Check it out!<a>"
 
 - date: 17 November, 2024
-  headline: "I gave a talk about 'data-adaptive RKHS regularization' in <a href='https://easipia.github.io/website/index8thyss.html?The_Eighth_Young_Scholar_Symposium' target='_blank'> the 8th Young Scholar Symposium of the East Asia Section of Inverse Problems International Association.<a> "
+  headline: "I gave a talk about 'Data-adaptive RKHS regularization' in <a href='https://easipia.github.io/website/index8thyss.html?The_Eighth_Young_Scholar_Symposium' target='_blank'> the 8th Young Scholar Symposium of the East Asia Section of Inverse Problems International Association.<a> "
 
 - date: 5 November, 2024
   headline: "I gave a talk about `Bayesian inverse problem computation' in School of Mathematics at Hunan Univeristy. <a href='https://math.hnu.edu.cn/info/1045/6565.htm' target='_blank'>Here is the information.<a> "
 
 - date: 24 October, 2024
-  headline: "I gave a talk about `iterative data-adaptive RKHS regularization' in Department of Mathematics at Lehigh Univeristy, invited by <a href='https://www.lehigh.edu/~yuy214/' target='_blank'>Prof. Yue Yu.<a>"
+  headline: "I gave a talk about `Iterative data-adaptive RKHS regularization' in Department of Mathematics at Lehigh Univeristy, invited by <a href='https://www.lehigh.edu/~yuy214/' target='_blank'>Prof. Yue Yu.<a>"
 
 - date: 2 October, 2024
   headline: "I gave a talk in the <a href='https://math.jhu.edu/~data/' target='_blank'>Data Science Seminar<a> at Johns Hopkins University."
@@ -36,7 +39,7 @@
   headline: "I started to work as a visiting scholar in Department of Mathematics at Johns Hopkins Univeristy, hosted by <a href='https://math.jhu.edu/~feilu/index.html' target='_blank'>Prof. Fei Lu.<a>" 
 
 - date: 14 August, 2024
-  headline: "My paper on 'iterative regularization for linear inverse problems' was published on SISC. <a href='https://doi.org/10.1137/23M1593802' target='_blank'>Check it out!<a>"
+  headline: "My paper on 'Iterative regularization for linear inverse problems' was published on SISC. <a href='https://doi.org/10.1137/23M1593802' target='_blank'>Check it out!<a>"
 
 - date: 30 July, 2024
   headline: "I gave a talk in the workshop <a href='https://www.matrix-inst.org.au/events/multivariate-dependence-modeling-theory-and-applications/' target='_blank'>Multivariate Dependence Modelling: Theory and Applications.<a>"
