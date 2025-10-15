@@ -54,26 +54,28 @@ permalink: /about/
 <div class="jumbotron">
   <h3>Academic Service</h3>
   <ul>
-    <li><strong>Reviewer of journals:</strong>
+    <li><strong>Reviewer of journals/conferences:</strong>
       <ul>
         {% for service in site.data.service.name.journals %}
           <li>{{ service.name1 }}</li>
         {% endfor %}
       </ul>
     </li>
-    <li><strong>Reviewer of conferences:</strong>
+    <!-- <li><strong>Reviewer of conferences:</strong>
       <ul>
         {% for service in site.data.service.name.conferences %}
           <li>{{ service.name2 }}</li>
         {% endfor %}
       </ul>
-    </li>
+    </li> -->
     <li><strong>Reviewer of grants:</strong>
       <ul>
         {% for service in site.data.service.name.grants %}
           <li>{{ service.name3 }}</li>
         {% endfor %}
       </ul>
+    </li>
+    <li>Reviewer for Mathematical Reviews 
     </li>
   </ul>
 </div>

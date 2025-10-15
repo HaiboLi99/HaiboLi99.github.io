@@ -2,18 +2,19 @@
 name:
   # Reviewer of journals
   journals:
-    - name1: Reviewer for Mathematical Reviews (No. 161348)
     - name1: SIAM Journal on Matrix Analysis and Applications
     - name1: BIT Numerical Mathematics
     - name1: Numerical Algorithms
     - name1: ZAMM - Journal of Applied Mathematics and Mechanics 
     - name1: Journal of Computational and Applied Mathematics
+    - name1: The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC22)
+    - name1: The 13th International Conference on Electronics, Communications and Networks (CECNet 2023)
 
   # Reviewer of conferences
-  conferences:
-    - name2: The 13th International Conference on Electronics, Communications and Networks (CECNet 2023), 2023
-    - name2: The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC22), 2022
+  # conferences:
+  #   - name2: The 13th International Conference on Electronics, Communications and Networks (CECNet 2023), 2023
+  #   - name2: 
 
   # Reviewer of grants
   grants:
-    - name3: International reviewer for Czech Science Foundation (Czech Republic), 2024
+    - name3: International reviewer for Czech Science Foundation 
