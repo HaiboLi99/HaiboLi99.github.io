@@ -75,7 +75,7 @@ permalink: /about/
         {% endfor %}
       </ul>
     </li>
-    <li>Reviewer for Mathematical Reviews 
+    <li><strong>Reviewer for Mathematical Reviews</strong>
     </li>
   </ul>
 </div>
