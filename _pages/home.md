@@ -20,12 +20,12 @@ I am currently a Research Fellow in <a href='https://ms.unimelb.edu.au/' target=
 
 ### Research
 
-I work on applied and computational mathematics. My research centers around utilizing mathematical modeling and computational techniques to address challenging problems in scientific computing and data science. The research topics mainly include:
-* Inverse problems, Regularization
-* Numerical linear algebra, Matrix analysis and computation
+I work on applied and computational mathematics. My research aims to build mathematical theory and design efficient algorithms for real-world challenges in science, engineering, and beyond. The research topics mainly include:
+* Inverse problems
+* Numerical linear algebra
 * Scientific machine learning
 
-I am always open to collaboration with researchers in mathematics, statistics, artificial intelligence, and related areas. For any discussions, please feel free to reach out to me.
+I am always open to collaboration with researchers in mathematics, statistics, artificial intelligence, and related areas. For any discussions, please feel free to reach out to me by <a href="mailto:haibolee1729@gmail.com" target="_blank" style="text-decoration: underline;">haibolee1729@gmail.com</a>.
 <br/>
 
 
