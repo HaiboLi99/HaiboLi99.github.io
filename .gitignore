@@ -13,3 +13,4 @@ bin/
 _plugins/tex_to_posts.rb
 
 
+.bundle/
