@@ -3,7 +3,7 @@ title: Haibo Li
 email: haibolee1729@gmail.com
 description: Personal webpage of Dr. Haibo Li
 baseurl: ""
-url: "https://HaiboLi99.github.io"
+url: "https://haiboli99.github.io"
 
 
 # Google analytics ID: Uncomment and your own, if you like
@@ -26,7 +26,7 @@ location: >
 
 
 contact: >
-  <a href="mailto:haibo.li@unimelb.edu.au" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Haibo via email</a><br/>
+  <a href="mailto:haibolee1729@gmail.com" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Haibo via email</a><br/>
 
 
 # Pages shown in navbar
@@ -42,6 +42,7 @@ nav_pages:
 include:
   - .htaccess
   - _pages
+  - robots.txt
 
 # Conversion
 markdown: kramdown
@@ -66,6 +67,7 @@ kramdown:
 # plugins: ["jekyll/scholar"]
 plugins:
   - jekyll-scholar
+  - jekyll-sitemap
 
 # 允许运行本地自定义插件
 future: true

@@ -9,3 +9,5 @@ gem "csv"
 gem "base64"
 gem "bigdecimal"
 gem "observer"
+
+gem "jekyll-sitemap", "~> 1.4"
