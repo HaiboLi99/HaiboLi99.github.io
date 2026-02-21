@@ -21,7 +21,7 @@ hide_title: false
     if (!document.getElementById('giscus') || document.querySelector('iframe.giscus-frame')) return;
     var s = document.createElement('script');
     s.src = 'https://giscus.app/client.js';
-    s.setAttribute('data-repo', 'Machealb/Machealb.github.io');
+    s.setAttribute('data-repo', 'HaiboLi99/HaiboLi99.github.io');
     s.setAttribute('data-repo-id', 'R_kgDOM8FoEQ');
     s.setAttribute('data-category', 'General');
     s.setAttribute('data-category-id', 'DIC_kwDOM8FoEc4CuKwY');
