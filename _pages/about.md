@@ -24,12 +24,20 @@ permalink: /about/
   {% if member.linkedin %} <a href="{{ member.linkedin }}" target="_blank"><i class="fa fa-linkedin-square" style="font-size: 45px;"></i></a> {% endif %}
   {% if member.cv %} <a href="{{ site.url }}{{ site.baseurl }}/{{ member.cv }}" target="_blank"><i class="ai ai-cv-square" style="font-size: 45px;"></i></a> {% endif %}
 
+  <h3>Employment </h3>
+  <ul style="overflow: hidden">
+    {% for work in member.work %}
+      <li>{{ work | replace: "-","&#8211;" }}</li>
+    {% endfor %}
+  </ul>
+
+  <h3>Education </h3>
   <ul style="overflow: hidden">
     {% for education in member.education %}
       <li>{{ education | replace: "-","&#8211;" }}</li>
     {% endfor %}
   </ul>
-
+  
 </div>
 </div>
 </div>

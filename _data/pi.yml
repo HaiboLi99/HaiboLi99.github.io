@@ -1,6 +1,6 @@
 - name: Dr. Haibo Li
   photo: haibo1.jpg
-  info: Research Fellow in Applied Mathematics
+  # info: Associate Professor in Mathematics
   
   email: haibolee1729@gmail.com
   github: https://github.com/HaiboLi99
@@ -9,6 +9,12 @@
   linkedin: https://www.linkedin.com/in/haibo-li-b586032a3/
   cv: assets/CV.pdf
   # Change the items in "education" you have (up to 6)
+
+  work:
+    [
+      "(2025.12-present) Associate Professor, School of Mathematics and Statistics, Huazhong University of Science and Technology"
+    ]
+
   education:
     [
       "(2015-2021) Ph.D. Mathematics, Department of Mathematical Sciences, Tsinghua University",

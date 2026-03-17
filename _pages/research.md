@@ -27,10 +27,10 @@ Here are several representative papers:
 
 
 <div class="jumbotron">
-<h3>Matrix-pair problems</h3>
-Matrix-pair problems frequently emerge from the regularization and computation of inverse problems. Typical examples include the generalized singular value decomposition (GSVD), generalized least squares problems, and least squares problems with linear constrints.
+<h3>Matrix computation</h3>
+Matrix problems, especially matrix-pair problems frequently emerge from the regularization and computation of inverse problems. Typical examples include the generalized singular value decomposition (GSVD), generalized least squares problems, and least squares problems with linear constrints.
 
-This project focuses on the analysis and computation of such matrix-pair problems from novel perspectives, with particular emphasis on developing efficient iterative algorithms for large-scale instances.
+This project focuses on the analysis and computation of matrix-pair problems from novel perspectives, with particular emphasis on developing efficient iterative algorithms for large-scale instances.
 Here are several representative papers:
 
 * [Li, H. (2025). A new interpretation of the weighted pseudoinverse and its applications. SIAM Journal on Matrix Analysis and Applications, 46(2), 934--956.](https://doi.org/10.1137/24M1686073)
