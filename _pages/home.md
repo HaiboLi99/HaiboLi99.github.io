@@ -17,15 +17,16 @@ I am currently an Associate Professor in <a href='https://maths.hust.edu.cn/inde
 I completed my Ph.D. in Mathematics from <a href='https://www.tsinghua.edu.cn/en/' target='_blank'>Tsinghua University<a> in 2021. See <a href='https://mathgenealogy.org/id.php?id=273430' target='_blank'>Haibo Li<a> at the <a href='https://en.wikipedia.org/wiki/Mathematics_Genealogy_Project' target='_blank'>Mathematics Genealogy Project.<a> 
 
 
-
 ### Research
 
-I work on applied and computational mathematics. My research aims to build mathematical theory and design efficient algorithms for real-world challenges in science, engineering, and beyond. The research topics mainly include:
+I work on applied and computational mathematics. My research aims to build rigorous mathematical theory and design efficient algorithms for real-world challenges in science, engineering, and beyond. The topics mainly include:
 * Inverse problems
 * Numerical linear algebra
 * Scientific machine learning
 
-I am always open to collaboration with researchers in mathematics, statistics, artificial intelligence, and related areas. For any discussions, please feel free to reach out to me by <a href="mailto:haibolee1729@gmail.com" target="_blank" style="text-decoration: underline;">haibolee1729@gmail.com</a>.
+I am always open to collaborations with researchers across mathematics, statistics, artificial intelligence, and related disciplines.  For any discussions, please feel free to reach out to me.
+
+<span style="color: #e74c3c;"><i class="fa fa-bullhorn fa-1x"></i> &nbsp; I am actively looking for motivated graduate students --- feel free to get in touch!</span>
 <br/>
 
 
