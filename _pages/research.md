@@ -6,8 +6,9 @@ permalink: /research/
 ---
 
 
-<!-- ### Research -->
+<div style="margin-top:10px; text-align:left;">
 
+My research focuses on the theory and computation of inverse problems, with numerical linear algebra providing the algorithmic foundation for scalable methods and scientific machine learning motivating data-driven problems and new computational approaches.
 
 <div class="jumbotron">
 <h3>Regularization for inverse problems</h3>
