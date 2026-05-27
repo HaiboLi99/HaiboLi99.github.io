@@ -11,3 +11,4 @@ gem "bigdecimal"
 gem "observer"
 
 gem "jekyll-sitemap", "~> 1.4"
+gem "sass-embedded", "1.99.0"
