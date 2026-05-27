@@ -4,6 +4,7 @@ slugs:
   maths:
     - operator-bernstein
     - Matern-kernel
+    - Trace-class
 
 
 

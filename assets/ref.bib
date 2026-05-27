@@ -1,5 +1,17 @@
 % Preprints
 
+@unpublished{li2026data,
+  Title={Data-informed posterior approximation for Bayesian linear inverse problems},
+  Author={Li, Haibo}, 	 
+  Note={arXiv:2605.20770},
+  doi = {2605.20770},
+  year={2026},
+  file = {2026-data-informed.pdf},
+  abstract = {Computing posterior distributions in large-scale Bayesian linear inverse problems is challenging due to the high dimensionality of the parameter space. In this work, we develop a data-informed framework that shifts the computational focus from the parameter space to the data space. We rigorously characterize an intrinsically low-dimensional data space, establish its isometric embedding into the parameter space, and show that the prior-to-posterior update is confined to a data-informed subspace. This perspective allows posterior inference to be carried out in a reduced data-informed subspace. Based on this formulation, we propose a quotient-space Golub--Kahan bidiagonalization method to construct data-informed Krylov subspaces, and integrate empirical Bayesian inference into the iterative framework, enabling simultaneous hyperparameter estimation and posterior approximation in a matrix-free manner. Numerical experiments on representative problems support the theoretical framework and demonstrate the effectiveness of the resulting method.}
+}
+
+
+
 @unpublished{li2025auto,
   Title={Automatic reproducing kernel and regularization for learning convolution kernels},
   Author={Li, Haibo and Lu, Fei},
@@ -10,23 +22,24 @@
   abstract = {Learning convolution kernels in operators from data arises in numerous applications and represents an ill-posed inverse problem of broad interest. With scant prior information, kernel methods offer a natural nonparametric approach with regularization. However, a major challenge is to select a proper reproducing kernel, especially as operators and data vary. We show that the input data and convolution operator themselves induce an automatic, data-adaptive RKHS (DA-RKHS), obviating manual kernel selection. In particular, when the observation data is discrete and finite, there is a finite set of automatic basis functions sufficient to represent the estimators in the DA-RKHS, including the minimal-norm least-squares, Tikhonov, and conjugate-gradient estimators. We develop both Tikhonov and scalable iterative and hybrid algorithms using the automatic basis functions. Numerical experiments on integral, nonlocal, and aggregation operators confirm that our automatic RKHS regularization consistently outperforms standard ridge regression and Gaussian process methods with preselected kernels.}
 }
 
-@unpublished{li2025rkhsODE,
+@article{li2025rkhsODE,
   Title={Derivative estimation by RKHS regularization for learning dynamics from time-series data},
   Author={Guo, Hailong and Li, Haibo},
-  Note={arXiv:2504.01289},
-  doi = {2504.01289},
-  year={2025},
+  journal={Communications in Computational Physics, accepted},
+  doi = {10.48550/arXiv.2504.01289},
+  year={2026},
   file = {2025-RKHS_ODE.pdf},
   abstract = {Learning the governing equations from time-series data has gained increasing attention due to its potential to extract useful dynamics from real-world data. Despite significant progress, it becomes challenging in the presence of noise, especially when derivatives need to be calculated. To reduce the effect of noise, we propose a method that simultaneously fits both the derivative and trajectory from noisy time-series data. Our approach formulates derivative estimation as an inverse problem involving integral operators within the forward model, and estimates the derivative function by solving a regularization problem in a vector-valued reproducing kernel Hilbert space (vRKHS). We derive an integral-form representer theorem, which enables the computation of the regularized solution by solving a finite-dimensional problem and facilitates efficiently estimating the optimal regularization parameter. By embedding the dynamics within a vRKHS and utilizing the fitted derivative and trajectory, we can recover the underlying dynamics from noisy data by solving a linear regularization problem. Several numerical experiments are conducted to validate the effectiveness and efficiency of our method.}
 }
 
 
-@unpublished{li2024scalable,
+@article{li2024scalable,
   Title={Scalable iterative data-adaptive RKHS regularization},
   Author={Li, Haibo and Feng, Jinchao and Lu, Fei},
-  Note={arXiv:2401.00656},
-  doi = {2401.00656},
-  year={2024},
+  journal={SIAM Journal on Scientific Computing, accepted},
+  doi = {10.48550/arXiv.2401.00656},
+  year={2026},
+  publisher={SIAM},
   file = {2024-idarr.pdf},
   abstract = {We present iDARR, a scalable iterative Data-Adaptive RKHS Regularization method, for solving ill-posed linear inverse problems. The method searches for solutions in subspaces where the true solution can be identified, with the data-adaptive RKHS penalizing the spaces of small singular values. At the core of the method is a new generalized Golub-Kahan bidiagonalization procedure that recursively constructs orthonormal bases for a sequence of RKHS-restricted Krylov subspaces. The method is scalable with a complexity of O(kmn) for m-by-n matrices with k denoting the iteration numbers. Numerical tests on the Fredholm integral equation and 2D image deblurring show that it outperforms the widely used L2 and l2 norms, producing stable accurate solutions consistently converging when the noise level decays.}
 }
@@ -153,7 +166,7 @@
 
 @article{li2024JBDinner,
 author = {Li, Haibo},
-title = {The Joint Bidiagonalization of a Matrix Pair with Inaccurate Inner Iterations},
+title = {The joint bidiagonalization of a matrix pair with inaccurate inner iterations},
 journal = {SIAM Journal on Matrix Analysis and Applications},
 volume = {45},
 number = {1},
@@ -179,7 +192,7 @@ abstract = {The joint bidiagonalization (JBD) process iteratively reduces a matr
 }
 
 @article{yan202410,
-  title={10-Million Atoms Simulation of First-Principle Package LS3DF},
+  title={10-Million atoms simulation of first-principle package LS3DF},
   author={Yan, Yujin and Li, Haibo and Zhao, Tong and Wang, Lin-Wang and Shi, Lin and Liu, Tao and Tan, Guangming and Jia, Weile and Sun, Ninghui},
   journal={Journal of Computer Science and Technology},
   volume={39},
@@ -192,10 +205,9 @@ abstract = {The joint bidiagonalization (JBD) process iteratively reduces a matr
   abstract = {The growing demand for semiconductor devices simulation poses a big challenge for large-scale electronic structure calculations. Among various methods, the linearly scaling three-dimensional fragment (LS3DF) method exhibits excellent scalability in large-scale simulations. Based on algorithmic and system-level optimizations, we propose a highly scalable and highly efficient implementation of LS3DF on a domestic heterogeneous supercomputer equipped with accelerators. In terms of algorithmic optimizations, the original all-band conjugate gradient algorithm is refined to achieve faster convergence, and mixed precision computing is adopted to increase overall efficiency. In terms of system-level optimizations, the original two-layer parallel structure is replaced by a coarse-grained parallel method. Optimization strategies such as multi-stream, kernel fusion, and redundant computation removal are proposed to increase further utilization of the computational power provided by the heterogeneous machines. As a result, our optimized LS3DF can scale to a 10-million silicon atoms system, attaining a peak performance of 34.8 PFLOPS (21.2% of the peak). All the improvements can be adapted to the next-generation supercomputers for larger simulations.}
 }
 
-
 @article{JiaLiJBD2023,
 author = {Jia, Zhongxiao and Li, Haibo},
-title = {The Joint Bidiagonalization Method for Large GSVD Computations in Finite Precision},
+title = {The joint bidiagonalization method for large GSVD computations in finite precision},
 journal = {SIAM Journal on Matrix Analysis and Applications},
 volume = {44},
 number = {1},
@@ -224,7 +236,7 @@ abstract = { Abstract. The joint bidiagonalization (JBD) method has been used to
 % For comference paper, replace 'incollection' by 'inproceedings'
 
 @inproceedings{liu2024tddft,
-  Title={Large Scale Finite-Temperature Real-time Time Dependent Density Functional Theory Calculation with Hybrid Functional on ARM and GPU Systems},
+  Title={Large scale finite-temperature real-time time dependent density functional theory calculation with hybrid functional on ARM and GPU systems},
   Author={Rongrong Liu and Zhuoqiang Guo and Qiuchen Sha and Tong Zhao and Haibo Li and Wei Hu and Lĳun Liu and Guangming Tan and Weile Jia},
   Booktitle = {2025 IEEE International Parallel and Distributed Processing Symposium (IPDPS)},
   year={2025},
@@ -233,7 +245,6 @@ abstract = { Abstract. The joint bidiagonalization (JBD) method has been used to
   file = {2025-TDDFT.pdf},
   abstract = {Ultra-fast electronic phenomena originating from finite temperature, such as nonlinear optical excitation, can be simulated with high fidelity via real-time time dependent density functional theory (rt-TDDFT) calculations with hybrid functional. However, previous rt-TDDFT simulations of real materials using the optimal gauge-known as the parallel transport gauge-have been limited to low-temperature systems with band gaps. In this paper, we introduce the parallel transport-implicit midpoint (PT-IM) method, which significantly accelerates finitetemperature rt-TDDFT calculations of real materials with hybrid function. We first implement PT-IM with hybrid functional in our plane wave code PWDFT, and optimized it on both GPU and ARM platforms to build a solid baseline code. Next, we propose a diagonalization method to reduce computation and communication complexity, and then, we employ adaptively compressed exchange (ACE) method to reduce the frequency of the most expensive Fock exchange operator. Finally, we adopt the ring_based method and the shared memory mechanism to overlap computation and communication and alleviate memory consumption respectively. Numerical results show that our optimized code can reach 3072 atoms for rt-TDDFT simulation with hybrid functional at finite temperature on 192 computing nodes, the time-to-solution for one time step is 429.3 s, which is 41.4 times faster compared to the baseline.}
 }
-
 
 
 % others
