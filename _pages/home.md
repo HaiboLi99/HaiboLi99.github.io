@@ -12,7 +12,7 @@ permalink: /
 
 <!-- I am currently a Research Fellow in <a href='https://ms.unimelb.edu.au/' target='_blank'>School of Mathematics and Statistics, University of Melbourne<a>. I completed my Ph.D. in Mathematics from <a href='https://www.tsinghua.edu.cn/en/' target='_blank'>Tsinghua University<a>, China, in 2021. See <a href='https://mathgenealogy.org/id.php?id=273430' target='_blank'>Haibo Li<a> at the <a href='https://en.wikipedia.org/wiki/Mathematics_Genealogy_Project' target='_blank'>Mathematics Genealogy Project.<a> -->
 
-I am currently an Associate Professor in <a href='https://maths.hust.edu.cn/index.htm' target='_blank'>School of Mathematics and Statistics, Huazhong University of Science and Technology.<a> Previously, I worked as a Research Fellow at University of Melbourne and briefly a Visiting Scholar at Johns Hopkins University from September 2023 to October 2025. 
+I am currently an Associate Professor in <a href='https://maths.hust.edu.cn/index.htm' target='_blank'>School of Mathematics and Statistics, Huazhong University of Science and Technology.<a> Previously, I worked as a Research Fellow at The University of Melbourne and briefly a Visiting Scholar at Johns Hopkins University from September 2023 to October 2025. 
 <!-- Before that, I worked in Computing System Optimization Lab at Huawei Technologies from August 2021 to September 2023.  -->
 I completed my Ph.D. in Mathematics from <a href='https://www.tsinghua.edu.cn/en/' target='_blank'>Tsinghua University<a> in 2021. See <a href='https://mathgenealogy.org/id.php?id=273430' target='_blank'>Haibo Li<a> at the <a href='https://en.wikipedia.org/wiki/Mathematics_Genealogy_Project' target='_blank'>Mathematics Genealogy Project.<a> 
 
