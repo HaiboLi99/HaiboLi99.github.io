@@ -5,6 +5,7 @@ slugs:
     - operator-bernstein
     - Matern-kernel
     - inversion
+    - entropy-fano
     # - Trace-class
 
 
