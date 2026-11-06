@@ -3,15 +3,39 @@
 #   degree: Ph.D. 
 #   year: 2022
 
+- name: Yao Ji
+  location: School of Mathematics and Statistics, Huazhong University of Science and Technology
+  degree: Ph.d. candidates 
+  year: 2025 - 
+  co_supervisor: Prof. Dongfang Li
+
+- name: Yang Liu
+  location: School of Mathematics and Statistics, Huazhong University of Science and Technology
+  degree: M.S.
+  year: 2026 - 
+
+- name: Jingyu Du
+  location: School of Mathematics and Statistics, Huazhong University of Science and Technology
+  degree: M.S.
+  year: 2026 - 
+  co_supervisor: Prof. Ming Ju
+
+- name: Ran Guo
+  location: School of Mathematics and Statistics, Huazhong University of Science and Technology
+  degree: B.S.
+  year: 2023 - 
+
 - name: Bohan Sun
   location: School of Mathematics and Statistics, University of Melbourne
   degree: M.S.
   year: 2024 - 2026
+  co_supervisor: Prof. Wei Huang
 
 - name: Jiayue Ma
   location: School of Mathematics and Statistics, University of Melbourne
   degree: M.S.
   year: 2023 - 2025
+  co_supervisor: Prof. Hailong Guo
 
 # - name: Student Here
 #   location: Univesity Here

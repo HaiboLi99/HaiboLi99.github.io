@@ -92,7 +92,6 @@ permalink: /about/
 
 
 
-
 {% if site.data.awards %}
 
 <div class="jumbotron">
@@ -111,7 +110,7 @@ permalink: /about/
   <h3>Supervision of students</h3>
   <ul>
     {% for student in site.data.people %}
-      <li>{{ student.name }}, {{ student.location }} ({{ student.degree }}, {{ student.year }})</li>
+      <li>{{ student.name }}, {{ student.location }} ({{ student.degree }}, {{ student.year | replace: "-","&#8211;" }}{% if student.co_supervisor %}, co-supervised with {{ student.co_supervisor }}{% endif %})</li>
     {% endfor %}
   </ul>
 </div>

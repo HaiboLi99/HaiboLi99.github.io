@@ -1,3 +1,22 @@
+
+- date: 4 Nov, 2026
+  headline: "My paper on 'Data-informed Bayesian posterior approximation ' was published on Inverse Problems. <a href='https://iopscience.iop.org/article/10.1088/1361-6420/aeb8b8' target='_blank'>Check it out!<a>"
+
+- date: 1 Nov, 2026
+  headline: "I gave a talk at The 5th International Symposium on Computational Energy Science (COMPES 2026) held at Xiamen, Fujian."
+
+- date: 11 Oct, 2026
+  headline: "I gave a talk at <a href='https://en.meeting.csiam.org.cn/#/2026/' target='_blank'>The 24th Annual Conference of CSIAM (CSIAM 2026) <a> held at Lanzhou, Gansu."
+
+- date: 25 Aug, 2026
+  headline: "I gave a talk at <a href='https://easiam26.github.io/' target='_blank'>The 19th EASIAM Annual Meeting (EASIAM 2026) <a> held at Jeju Island, Korea."
+
+- date: 6 Aug, 2026
+  headline: "Our paper on 'Iterative data-adaptive RKHS regularization' was published on SISC. <a href='https://doi.org/10.1137/24M1628104' target='_blank'>Check it out!<a>"
+
+- date: 23 Jan, 2026
+  headline: "I was invited to give a talk in School of Mathematical Sciences at Soochow University. <a href='https://math.suda.edu.cn/bc/ee/c10710a703726/page.htm' target='_blank'>Here is the information.<a>"
+
 - date: 19 May, 2026
   headline: "I gave a talk about 'Iterative data-adaptive RKHS regularization' at <a href='https://ilas2026.math.vt.edu/index.html' target='_blank'>The 27th Conference of the International Linear Algebra Society (ILAS 2026)<a> held in Virginia Tech."
 
@@ -11,7 +30,7 @@
   headline: "I gave a talk about 'Data-adaptive RKHS regularization for learning convolution kernels' at the <a href='https://comp-neuro.github.io/index.html' target='_blank'> Computational Neuroscience Lab<a> at Monash University."
 
 - date: 25 Sept, 2025
-  headline: "I gave a talk about 'Projected Newton method for Bayesian inverse problems' in the <a href='https://events.unimelb.edu.au/mathematics-and-statistics-seminars/event/49735-projected-newton-method-for-large-scale-bayesian' target='_blank'>Applied Mathematics Seminar<a> at University of Melbourne."
+  headline: "I gave a talk about 'Projected Newton method for Bayesian inverse problems' in the <a href='https://events.unimelb.edu.au/mathematics-and-statistics-seminars/event/49735-projected-newton-method-for-large-scale-bayesian' target='_blank'>Applied Mathematics Seminar<a> at The University of Melbourne."
 
 - date: 9 Aug, 2025
   headline: "My paper on 'Krylov methods for LSE problems' was published online on Numerical Algorithms. <a href='https://doi.org/10.1007/s11075-025-02192-9' target='_blank'>Check it out!<a>"
@@ -32,7 +51,7 @@
   headline: "Our paper on 'Lanczos bidiagonalization with reorthogonalization' was published on JCAM. <a href='https://doi.org/10.1016/j.cam.2024.116414' target='_blank'>Check it out!<a>"
 
 - date: 17 November, 2024
-  headline: "I gave a talk about 'Data-adaptive RKHS regularization' in <a href='https://easipia.github.io/website/index8thyss.html?The_Eighth_Young_Scholar_Symposium' target='_blank'> the 8th Young Scholar Symposium of the East Asia Section of Inverse Problems International Association.<a> "
+  headline: "I gave a talk about 'Data-adaptive RKHS regularization' in <a href='https://easipia.github.io/website/index8thyss.html?The_Eighth_Young_Scholar_Symposium' target='_blank'> The 8th Young Scholar Symposium of the East Asia Section of Inverse Problems International Association.<a> "
 
 - date: 5 November, 2024
   headline: "I gave a talk about `Bayesian inverse problem computation' in School of Mathematics at Hunan Univeristy. <a href='https://math.hnu.edu.cn/info/1045/6565.htm' target='_blank'>Here is the information.<a> "
