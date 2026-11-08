@@ -28,8 +28,8 @@ $baseurl: "{{ site.url }}{{ site.baseurl }}";
 .navbar-nav .nav-link {
   font-size: 18px;
   font-weight: 500;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 12px;
 }
 
 
@@ -203,7 +203,7 @@ body.light-theme .jumbotron {
 // 明暗主题链接颜色设置（绿色）
 // ============================
 body.dark-theme a { 
-  color: #00bc8c;   
+  color: #3aa88b;   
 }
 
 body.dark-theme a:hover {
@@ -211,11 +211,11 @@ body.dark-theme a:hover {
 }
 
 body.light-theme a {
-  color: #1c42e8;  
+  color: #1a7a6d;  
 }
 
 body.light-theme a:hover {
-  color: #1836b8;  
+  color: #185a51;  
 }
 
 // body.light-theme a {
@@ -345,6 +345,36 @@ h3 {
   line-height: 1.2;
   color: inherit;  
 }
+
+
+
+//=========================================//
+
+/* ==============================================
+   Math Seminar inspired color scheme
+   ============================================== */
+
+// :root {
+//   --accent-base: #1a7a6d;
+
+//   /* Light mode */
+//   --bg-primary: #f8f6f1;
+//   --bg-secondary: #f0ece4;
+//   --bg-card: #ffffff;
+//   --text-primary: #2c2a25;
+//   --text-secondary: #5c5850;
+//   --text-muted: #6f6a61;
+//   --border-color: #e2ded6;
+
+//   --accent: var(--accent-base);
+//   --accent-hover: color-mix(
+//     in srgb, var(--accent-base) 82%, black
+//   );
+//   --accent-light: color-mix(
+//     in srgb, var(--accent-base) 8%, transparent
+//   );
+// }
+
 
 
 
