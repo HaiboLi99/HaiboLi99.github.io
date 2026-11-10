@@ -26,14 +26,13 @@ I work on applied and computational mathematics. My research aims to build rigor
 
 I am always open to collaborations with researchers across mathematics, statistics, artificial intelligence, and related disciplines.  For any discussions, please feel free to reach out to me.
 
-<span style="color: #e74c3c;"><i class="fa fa-bullhorn fa-1x"></i> &nbsp; I am actively looking for motivated graduate students --- feel free to get in touch!</span>
-<br/>
-
+<!-- <span style="color: #e74c3c;"><i class="fa fa-bullhorn fa-1x"></i> &nbsp; I am actively looking for motivated graduate students --- feel free to get in touch!</span>
+<br/> -->
 
 <br/> 
 
 
-#### Research Resources
+#### Resources
 
 * <a href='https://cims.nyu.edu/dynamic/' target='_blank'><font class="resource-link">Courant Institute of Mathematical Sciences, NYU</font></a>
 * <a href='https://www.ipam.ucla.edu/' target='_blank'><font class="resource-link">Institute for Pure and Applied Mathematics, UCLA</font></a>

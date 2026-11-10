@@ -74,7 +74,7 @@ $baseurl: "{{ site.url }}{{ site.baseurl }}";
 
 /* 亮色主题底栏 */
 body.light-theme .container-footer {
-  background-color: #f9f9f9;
+  background-color: #f9f5f5;
   color: #4a4a4a;
   border-top: 2px solid #ccc;
 }
@@ -117,11 +117,11 @@ body.light-theme .container-footer {
 :root {
   --bg-color-dark: #1e1e1e;
   --text-color-dark: #ffffff; 
-  --bg-color-light: #ffffff;
+  --bg-color-light: #f8f6f1;
   --text-color-light: #000000;
 
   --footer-bg-dark: #333;
-  --footer-bg-light: #f0f0f0;
+  --footer-bg-light: #faf9f7;
 }
 
 // ============================
@@ -194,8 +194,8 @@ body.dark-theme .jumbotron {
 }
 
 body.light-theme .jumbotron {
-  background-color: #f9f9f9;  
-  border: 1px solid #ccc;
+  background-color: #faf9f7;  
+  border: 1px solid #e3e2de;
 }
 
 
@@ -218,14 +218,6 @@ body.light-theme a:hover {
   color: #185a51;  
 }
 
-// body.light-theme a {
-//   color: #0c6fb0;  /* 原来的 #1c42e8 换成 sec */
-// }
-
-// body.light-theme a:hover {
-//   color: #1f5f87;  /* 给 hover 一个比 #3282B8 深一些的色调 */
-// }
-
 // setting for links
 a font.resource-link {
   font-size: 0.8em; 
@@ -235,7 +227,7 @@ a font.resource-link {
 
 /* 暗色主题 */
 body.dark-theme a font.resource-link {
-  color: #22dede;
+  color: #22c1c1;
 }
 body.dark-theme a:hover font.resource-link {
   color: #06f0f0;
@@ -244,10 +236,10 @@ body.dark-theme a:hover font.resource-link {
 
 /* 亮色主题 */
 body.light-theme a font.resource-link {
-  color: #1ba6ddf9;  
+  color: #2894bef9;  
 }
 body.light-theme a:hover font.resource-link {
-  color: #258bad;  
+  color: #086082f9;  
   text-decoration: underline;
 }
 
@@ -303,7 +295,7 @@ body.dark-theme .site-navbar {
 }
 
 body.light-theme .site-navbar {
-  background-color: #f9f9f9 !important;
+  background-color: #faf9f7 !important;
   color: #4a4a4a !important;
   .nav-link,
   .navbar-text,
@@ -345,36 +337,4 @@ h3 {
   line-height: 1.2;
   color: inherit;  
 }
-
-
-
-//=========================================//
-
-/* ==============================================
-   Math Seminar inspired color scheme
-   ============================================== */
-
-// :root {
-//   --accent-base: #1a7a6d;
-
-//   /* Light mode */
-//   --bg-primary: #f8f6f1;
-//   --bg-secondary: #f0ece4;
-//   --bg-card: #ffffff;
-//   --text-primary: #2c2a25;
-//   --text-secondary: #5c5850;
-//   --text-muted: #6f6a61;
-//   --border-color: #e2ded6;
-
-//   --accent: var(--accent-base);
-//   --accent-hover: color-mix(
-//     in srgb, var(--accent-base) 82%, black
-//   );
-//   --accent-light: color-mix(
-//     in srgb, var(--accent-base) 8%, transparent
-//   );
-// }
-
-
-
 
