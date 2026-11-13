@@ -2,7 +2,7 @@
 name:
   # Reviewer of journals
   journals:
-    - name1: SIAM Journal on on Scientific Computing
+    - name1: SIAM Journal on Scientific Computing
     - name1: SIAM Journal on Matrix Analysis and Applications
     - name1: Journal of Scientific Computing
     - name1: BIT Numerical Mathematics
